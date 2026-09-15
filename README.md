@@ -44,6 +44,18 @@ No environment variables are required. There is no build step, no package manage
 
 `public/index.html` is fully self-contained: all imagery is embedded as base64 `data:` URIs and the only inline script is an `IntersectionObserver` that animates the bar widths. The single external dependency is the Inter webfont from Google Fonts, which degrades gracefully to a system font stack if it fails to load.
 
+## Ad preview section
+
+Section 02 reproduces the GOAL ad preview in HTML/CSS rather than embedding a screenshot, so it stays crisp at any zoom, reflows on phones, and prints cleanly.
+
+The agency wordmark is rendered in CSS using the Parisienne webfont, because the logo files are still outstanding (item 5 in Items to confirm). When the real logo arrives, replace the whole `<div class="adlogo">` block in `public/index.html` with one line:
+
+```html
+<img class="adlogo" src="data:image/png;base64,PASTE" alt="KayRich Insurance Agency">
+```
+
+The surrounding `.adcard` grid already sizes that column at 232px, so nothing else needs to change. An inline comment in the markup says the same thing. Keep the logo as a `data:` URI rather than a separate file — the CSP allows `img-src 'self' data:` and the report stays self-contained.
+
 ## Adding future reports
 
 Drop the new file into `public/` with a URL-friendly, dated name — spaces and punctuation in filenames make for ugly, easily-broken links:
