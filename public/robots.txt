@@ -1,0 +1,3 @@
+# Client report — not intended for search engine indexing.
+User-agent: *
+Disallow: /
