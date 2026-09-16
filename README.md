@@ -1,15 +1,18 @@
 # KayRich Insurance Reporting
 
-Static hosting for the KayRich Insurance Agency campaign configuration report, deployed on Vercel.
+Static reporting hub for KayRich Insurance Agency, deployed on Vercel.
 
-**Live report:** the root URL of the deployment (`/`).
+**Live site:** the root URL (`/`) is the report hub, with one card per report. Each report has an "← All Reports" button at the top of its sidebar that returns to the hub (hidden when printed).
 
 ## Repository layout
 
 ```
 public/            # everything in here is deployed and publicly reachable
-  index.html       # the campaign configuration report (served at /)
-  robots.txt       # asks crawlers not to index the report
+  index.html       # report hub (served at /), one card per report
+  reports/
+    campaign-configuration-2026-09-15.html   # /reports/campaign-configuration-2026-09-15
+    seo-audit-2026-09-16.html                # /reports/seo-audit-2026-09-16
+  robots.txt       # asks crawlers not to index the reports
 vercel.json        # Vercel build & header configuration
 ```
 
@@ -42,13 +45,13 @@ No environment variables are required. There is no build step, no package manage
 
 ## The report itself
 
-`public/index.html` is fully self-contained: all imagery is embedded as base64 `data:` URIs and the only inline script is an `IntersectionObserver` that animates the bar widths. The single external dependency is the Inter webfont from Google Fonts, which degrades gracefully to a system font stack if it fails to load.
+Every page is fully self-contained: all imagery is embedded as base64 `data:` URIs and the only inline script is an `IntersectionObserver` that animates the bar widths. The single external dependency is the Inter webfont from Google Fonts, which degrades gracefully to a system font stack if it fails to load.
 
 ## Ad preview section
 
 Section 02 reproduces the GOAL ad preview in HTML/CSS rather than embedding a screenshot, so it stays crisp at any zoom, reflows on phones, and prints cleanly.
 
-The agency wordmark is rendered in CSS using the Parisienne webfont, because the logo files are still outstanding (item 5 in Items to confirm). When the real logo arrives, replace the whole `<div class="adlogo">` block in `public/index.html` with one line:
+The agency wordmark is rendered in CSS using the Parisienne webfont, because the logo files are still outstanding (item 5 in Items to confirm). When the real logo arrives, replace the whole `<div class="adlogo">` block in `public/reports/campaign-configuration-2026-09-15.html` with one line:
 
 ```html
 <img class="adlogo" src="data:image/png;base64,PASTE" alt="KayRich Insurance Agency">
@@ -58,13 +61,20 @@ The surrounding `.adcard` grid already sizes that column at 232px, so nothing el
 
 ## Adding future reports
 
-Drop the new file into `public/` with a URL-friendly, dated name — spaces and punctuation in filenames make for ugly, easily-broken links:
+1. Put the report in `public/reports/` with a URL-friendly, dated name, e.g. `public/reports/campaign-performance-2026-10-15.html`. `cleanUrls` serves it at `/reports/campaign-performance-2026-10-15`.
+2. Make its first sidebar element the back link, and hide it in print (`.side .back{display:none;}` inside `@media print`):
 
-```
-public/campaign-configuration-2026-10-15.html   ->   /campaign-configuration-2026-10-15
-```
+   ```html
+   <a class="back" href="../index.html">&larr; All Reports</a>
+   ```
 
-`cleanUrls` gives it an extensionless URL automatically. To make a new report the default landing page, replace `public/index.html` with it and keep the previous one under its dated name.
+3. Add a card for it to the matching group in `public/index.html` (or add a new group):
+
+   ```html
+   <a class="card" href="reports/campaign-performance-2026-10-15.html"><div class="ct">Title</div><div class="cs">Scope &middot; Date</div><div class="cl">Open report &rarr;</div></a>
+   ```
+
+`vercel.json` redirects the older links to the files under `reports/`: `/seo-audit`, `/seo-audit-2026-09-16` and `/campaign-configuration`.
 
 ## Access note
 
