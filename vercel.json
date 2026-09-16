@@ -18,6 +18,11 @@
       "source": "/campaign-configuration",
       "destination": "/reports/campaign-configuration-2026-09-15",
       "permanent": false
+    },
+    {
+      "source": "/commercial-campaign-configuration",
+      "destination": "/reports/commercial-campaign-configuration-2026-09-16",
+      "permanent": false
     }
   ],
   "headers": [
