@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>KayRich Insurance Agency - SEO Audit and Growth Roadmap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#057BE5; --blue-hover:#0C6EC5; --sky:#2D90EE; --mint:#3BEECA; --mint-d:#0fae8f;
+  --navy:#00172D; --navy-2:#062c4e; --navy-deep:#001020;
+  --ink:#0F1B2D; --body:#2B3442; --muted:#6A7482;
+  --white:#fff; --off:#F8FAFC; --gray:#EFF2F7; --divider:#EDF1F5; --line:#E2E8F0;
+  --success:#2BBF7A; --warning:#F0A93B; --error:#E5484D;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth;}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--gray);color:var(--body);line-height:1.55;}
+a{color:var(--blue);text-decoration:none;} a:hover{text-decoration:underline;}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;background:var(--gray);padding:1px 5px;border-radius:4px;color:var(--ink);word-break:break-all;}
+.shell{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:288px 1fr;min-height:100vh;background:var(--white);}
+
+/* Sidebar */
+.side{background:var(--navy);color:#cfe0ee;padding:34px 30px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;overflow-y:auto;}
+.side .logo{height:30px;align-self:flex-start;margin-bottom:34px;}
+.side .eb{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sky);}
+.side h1{font-size:25px;font-weight:900;color:#fff;line-height:1.1;letter-spacing:-.02em;margin:10px 0 14px;}
+.side .who{font-size:13px;color:#a7c2da;line-height:1.6;}
+.side .who b{color:#fff;font-weight:600;}
+.side .who a{color:#a7c2da;text-decoration:underline;}
+.side nav{margin-top:30px;display:flex;flex-direction:column;gap:2px;}
+.side nav a{font-size:12.5px;color:#9fbcd6;text-decoration:none;padding:7px 10px;border-radius:8px;display:flex;align-items:center;gap:10px;transition:background .15s,color .15s;}
+.side nav a:hover{background:rgba(255,255,255,.06);color:#fff;text-decoration:none;}
+.side nav a .dot{width:6px;height:6px;border-radius:50%;background:#3a6386;flex-shrink:0;}
+.side nav a:hover .dot{background:var(--mint);}
+.side .foot{margin-top:auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.12);font-size:11px;color:#6f93b3;line-height:1.6;}
+
+/* Main */
+.main{padding:46px 52px 60px;}
+.block{margin-bottom:46px;scroll-margin-top:24px;}
+.bhead{display:flex;align-items:flex-start;gap:12px;margin-bottom:20px;}
+.bhead .ix{font-size:12px;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums;background:#E6F1FD;padding:4px 9px;border-radius:6px;margin-top:3px;}
+.bhead h2{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.01em;}
+.bhead p{font-size:13.5px;color:var(--muted);margin-top:3px;}
+.exec{background:var(--off);border:1px solid var(--line);border-radius:14px;padding:24px 28px;margin-bottom:26px;}
+.exec p{font-size:15px;line-height:1.62;color:var(--body);margin-bottom:12px;}
+.exec p:last-child{margin-bottom:0;}
+.exec p b{color:var(--ink);font-weight:700;}
+
+/* KPI cards */
+.kgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.kc{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--white);}
+.kc .v{font-size:26px;font-weight:900;color:var(--ink);letter-spacing:-.02em;line-height:1;}
+.kc .v.blue{color:var(--blue);} .kc .v.mint{color:var(--mint-d);} .kc .v.err{color:var(--error);}
+.kc .k{font-size:12.5px;color:var(--body);font-weight:600;margin-top:9px;}
+.kc .d{font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.45;}
+
+/* Panels */
+.panel{border:1px solid var(--line);border-radius:14px;padding:24px;background:var(--white);margin-bottom:18px;}
+.panel .pt{font-size:13px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.04em;margin-bottom:16px;}
+.panel p{font-size:14px;line-height:1.6;color:var(--body);}
+.fnote{font-size:12.5px;color:var(--muted);line-height:1.6;margin-top:16px;padding-top:14px;border-top:1px solid var(--divider);}
+.fnote b{color:var(--ink);font-weight:700;}
+.split{display:grid;grid-template-columns:300px 1fr;gap:18px;}
+.split .panel{margin-bottom:0;}
+
+/* Tags */
+.tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:6px;white-space:nowrap;line-height:1.5;}
+.tag.fix{background:#FDE8E9;color:#B3262B;}
+.tag.redesign{background:#E3F0FD;color:var(--blue-hover);}
+.tag.post{background:#D6F7EE;color:var(--mint-d);}
+.tag.crit{background:#FDE8E9;color:#B3262B;}
+.tag.high{background:#FDF0DA;color:#9a6712;}
+.tag.med{background:#EFF2F7;color:var(--body);}
+.tag.low{background:#F8FAFC;color:var(--muted);border:1px solid var(--line);}
+.tag.pass{background:#D6F7EE;color:var(--mint-d);}
+.tag.src{background:#EFF2F7;color:var(--body);font-weight:700;letter-spacing:.03em;text-transform:none;font-size:10.5px;}
+
+/* Tables */
+.table-wrap{overflow-x:auto;}
+.ctable{width:100%;border-collapse:collapse;text-align:left;}
+.ctable th{font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:0 12px 11px 0;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:bottom;}
+.ctable td{padding:12px 12px 12px 0;border-bottom:1px solid var(--divider);font-size:13px;color:var(--body);vertical-align:top;line-height:1.5;}
+.ctable tr:last-child td{border-bottom:none;}
+.ctable td.bold{font-weight:700;color:var(--ink);}
+.ctable td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--ink);font-weight:600;}
+.ctable td.num,.ctable th.num{text-align:right;font-variant-numeric:tabular-nums;}
+.ctable td.num{font-weight:700;color:var(--ink);}
+.ctable tr.grp td{background:rgba(5,123,229,.04);font-weight:800;color:var(--blue);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:9px 0;}
+.ctable .big{font-size:20px;font-weight:900;color:var(--ink);letter-spacing:-.02em;}
+
+/* Bars */
+.bar-row{display:flex;align-items:center;gap:14px;margin-bottom:10px;}
+.bar-row .lab{width:210px;flex-shrink:0;font-size:13px;font-weight:600;color:var(--ink);text-align:right;}
+.bar-row .lab small{display:block;font-weight:500;color:var(--muted);font-size:11px;}
+.bar{flex:1;height:34px;background:var(--gray);border-radius:8px;overflow:hidden;}
+.bar i{display:flex;align-items:center;height:100%;border-radius:8px;width:0;color:#fff;font-weight:800;font-size:14px;padding-left:12px;transition:width 1.1s cubic-bezier(.2,.7,.2,1);min-width:0;}
+.bar-row .val{width:120px;flex-shrink:0;font-size:12px;color:var(--muted);font-weight:700;}
+
+/* Donut */
+.donut-wrap{display:flex;flex-direction:column;align-items:center;}
+.donut{position:relative;width:180px;height:180px;}
+.donut .center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.donut .center .n{font-size:30px;font-weight:900;color:var(--ink);letter-spacing:-.02em;line-height:1;}
+.donut .center .l{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin-top:2px;}
+.legend{width:100%;margin-top:18px;display:flex;flex-direction:column;gap:8px;}
+.legend .li{display:flex;align-items:center;gap:9px;font-size:13px;}
+.legend .li .sw{width:10px;height:10px;border-radius:3px;flex-shrink:0;}
+.legend .li .nm{color:var(--body);font-weight:500;}
+.legend .li .vl{margin-left:auto;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;}
+
+/* Demand matrix */
+.matrix{width:100%;border-collapse:separate;border-spacing:4px;}
+.matrix th{font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;padding:4px 6px;text-align:center;}
+.matrix th.rowh{text-align:left;color:var(--ink);font-size:13px;text-transform:none;letter-spacing:0;font-weight:700;}
+.matrix td{text-align:center;padding:9px 6px;border-radius:7px;font-size:11px;font-weight:700;}
+.matrix td.y{background:#E3F0FD;color:var(--blue-hover);}
+.matrix td.n{background:#F8FAFC;color:#a3adb8;border:1px dashed var(--line);}
+.matrix td.u{background:#fff;color:#c2c9d1;border:1px dashed var(--divider);font-weight:500;}
+
+/* Checklist */
+.checklist{display:grid;grid-template-columns:1fr;gap:10px;}
+.check-item{display:flex;align-items:flex-start;gap:14px;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--off);}
+.check-box{width:18px;height:18px;border-radius:5px;border:2px solid var(--blue);flex-shrink:0;margin-top:2px;}
+.check-title{font-size:14px;font-weight:800;color:var(--ink);}
+.check-text{font-size:13px;color:var(--body);margin-top:2px;line-height:1.5;}
+
+/* Timeline */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px;}
+.tl .ph{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--white);border-top:4px solid var(--sky);}
+.tl .ph.pre{border-top-color:#B3262B;} .tl .ph.p3{border-top-color:var(--mint-d);}
+.tl .ph .w{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);}
+.tl .ph .t{font-size:16px;font-weight:900;color:var(--ink);margin:4px 0 8px;letter-spacing:-.01em;}
+.tl .ph ul{padding-left:16px;font-size:12.5px;color:var(--body);line-height:1.5;}
+.tl .ph li{margin:3px 0;}
+
+/* Tree and code */
+.tree-box{background:var(--navy-deep);color:#e2ecf5;border-radius:12px;padding:22px 26px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.65;overflow-x:auto;white-space:pre;}
+.tree-box .folder{color:var(--sky);font-weight:700;}
+.tree-box .note{color:#7fa5c4;}
+.code-box{background:var(--navy);color:#d9e6f2;border-radius:10px;padding:18px 22px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.55;overflow-x:auto;white-space:pre;}
+
+.callout{border-left:4px solid var(--warning);background:var(--off);padding:12px 16px;border-radius:6px;font-size:13.5px;line-height:1.55;color:var(--body);margin-top:14px;}
+.callout b{color:var(--ink);}
+.band{background:var(--navy);color:#cfe0ee;border-radius:14px;padding:26px 30px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;}
+.band .eb{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--sky);}
+.band .h{font-size:22px;font-weight:900;color:#fff;letter-spacing:-.02em;margin:6px 0 4px;}
+.band p{font-size:13.5px;color:#a7c2da;line-height:1.55;max-width:60ch;}
+.band .stats{display:flex;gap:26px;}
+.band .st .n{font-size:26px;font-weight:900;color:#fff;letter-spacing:-.02em;line-height:1;}
+.band .st .l{font-size:11px;color:#7fa5c4;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-top:5px;}
+.footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
+
+@media print{
+  body{background:#fff;} .shell{display:block;max-width:none;}
+  .side{position:static;height:auto;flex-direction:row;align-items:center;justify-content:space-between;padding:20px 30px;overflow:visible;}
+  .side nav,.side .foot{display:none;} .side h1{margin:0;}
+  .main{padding:22px;}
+  .kc,.panel,.check-item,.tl .ph,.band{break-inside:avoid;}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
+@media(max-width:1000px){ .tl{grid-template-columns:1fr 1fr;} }
+@media(max-width:900px){
+  .shell{grid-template-columns:1fr;}
+  .side{position:static;height:auto;}
+  .side nav{display:none;}
+  .main{padding:30px 20px;}
+  .kgrid{grid-template-columns:1fr 1fr;}
+  .split{grid-template-columns:1fr;}
+  .band{grid-template-columns:1fr;}
+  .bar-row .lab{width:120px;}
+}
+@media(max-width:560px){ .kgrid,.tl{grid-template-columns:1fr;} .bar-row .val{width:70px;} }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <aside class="side">
+    <img class="logo" src="data:image/png;base64,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" alt="GOAL">
+    <div class="eb">SEO audit and growth roadmap</div>
+    <h1>KayRich Insurance Agency</h1>
+    <div class="who">
+      Prepared for <b>Kayleigh Richards</b><br>
+      Kaufman, TX<br>
+      Audit date: September 16, 2026<br>
+      Site: <a href="https://www.kayrichinsure.com/" target="_blank" rel="noopener">kayrichinsure.com</a>
+    </div>
+    <nav>
+      <a href="#s1"><span class="dot"></span>01 Summary</a>
+      <a href="#s2"><span class="dot"></span>02 Assumptions and data</a>
+      <a href="#s3"><span class="dot"></span>03 Keyword audit</a>
+      <a href="#s4"><span class="dot"></span>04 Technical issues</a>
+      <a href="#s5"><span class="dot"></span>05 On-page, content, local</a>
+      <a href="#s6"><span class="dot"></span>06 Authority and links</a>
+      <a href="#s7"><span class="dot"></span>07 Redesign requirements</a>
+      <a href="#s8"><span class="dot"></span>08 Roadmap</a>
+      <a href="#s9"><span class="dot"></span>09 Measurement plan</a>
+      <a href="#s10"><span class="dot"></span>10 Items to confirm</a>
+    </nav>
+    <div class="foot">GOAL Performance Marketing<br>Every item is tagged Fix now (current Wix site), Redesign (requirement for the new site), or Post-launch (ongoing work).</div>
+  </aside>
+
+  <main class="main">
+
+    <!-- 01 -->
+    <section class="block" id="s1">
+      <div class="bhead"><span class="ix">01</span><div><h2>Summary</h2><p>Current state, the three changes that move lead volume, and what the redesign must preserve</p></div></div>
+      <div class="exec">
+        <p>The site reports <b>3 to 5 inbound leads per week</b>. Google has <b>2 pages</b> of kayrichinsure.com indexed, both targeting the phrase "better insurance rates." No page names a city or a line of business. The Google Business Profile lists the website as <code>krichagency.com</code>, a domain that does not resolve, so a Website click from the map fails. The profile has <b>5 reviews</b>; the nearest State Farm competitor has 321. The social icons on the site link to facebook.com and instagram.com home pages rather than the agency's profiles.</p>
+        <p>Three changes carry most of the path to <b>6 to 15 leads per week</b>. First, repair the local layer on the current site: Business Profile URL, one consistent name, address and phone everywhere, and a review request at every bind. Second, build the redesign as separate pages per line of business and per town, with the quote form in the first screen. Third, add a Texas race car insurance page on kayrichinsure.com so racing traffic is captured before it is handed to the Laris Motorsports partner.</p>
+        <p>The redesign keeps the domain and the two indexed URLs (301 redirects), keeps name, address and phone identical to the Business Profile, points every canonical at the production domain, and upgrades the existing LocalBusiness schema to InsuranceAgency.</p>
+      </div>
+      <div class="kgrid">
+        <div class="kc"><div class="v">3 to 5</div><div class="k">Leads per week, reported</div><div class="d">Owner's count. Not yet measured by source.</div></div>
+        <div class="kc"><div class="v mint">6 to 15</div><div class="k">Leads per week, target</div><div class="d">Six months after redesign launch.</div></div>
+        <div class="kc"><div class="v blue">2</div><div class="k">Pages indexed by Google</div><div class="d">site:kayrichinsure.com, Sept 16, 2026</div></div>
+        <div class="kc"><div class="v">5</div><div class="k">Google reviews (5.0)</div><div class="d">Top local competitor: 321 at 5.0</div></div>
+        <div class="kc"><div class="v err">29</div><div class="k">Lighthouse mobile performance</div><div class="d">Lab run, Sept 16, 2026. LCP 10.2 s.</div></div>
+        <div class="kc"><div class="v err">Dead</div><div class="k">Business Profile website link</div><div class="d">krichagency.com does not resolve.</div></div>
+      </div>
+    </section>
+
+    <!-- 02 -->
+    <section class="block" id="s2">
+      <div class="bhead"><span class="ix">02</span><div><h2>Assumptions and data limitations</h2><p>What the audit assumed, where it came from, and what could not be measured</p></div></div>
+      <div class="panel">
+        <div class="pt">Operating assumptions</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:190px">Parameter</th><th>Assumed</th><th>Basis</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Lines of business</td><td>Auto, home, life, commercial. Race car, trailer, motorhome and parts coverage through Laris Motorsports Insurance. Trucking and commercial auto appear in account notes.</td><td>Homepage service blocks; racing quote button redirects to larismotorsportsinsurance.com/quote-tracking/kayleigh-richards. Renters, umbrella and motorcycle are not on the site; confirm before building pages.</td></tr>
+            <tr><td class="bold">Carrier relationship</td><td>Treated as a Farmers agency for copy purposes. No page claims "independent" or "broker" until confirmed.</td><td>Owner contact email on the site is a farmersagent.com address. Account notes describe an independent brokerage with Farmers ties. See section 10.</td></tr>
+            <tr><td class="bold">Service area</td><td>Kaufman plus Forney, Terrell, Crandall, Kemp and Mabank.</td><td>The site names only Kaufman. Autocomplete shows more insurance search demand in Forney and Terrell than in Kaufman (section 5).</td></tr>
+            <tr><td class="bold">Physical location</td><td>107 N Jackson St, Kaufman, TX 75142 (Business Profile format)</td><td>Site uses "107 C North Jackson Street"; booking page uses "107C N Jackson St, USA"; account notes reference a County Road 4095 address. One format must be chosen (section 4, item 3).</td></tr>
+            <tr><td class="bold">Social audience</td><td>Facebook page with 370+ followers (Google snippet). Account notes report about 15,000 combined reach with about 11,000 on TikTok.</td><td>TikTok, Instagram, YouTube and X profiles could not be verified from the site because the site links to none of them.</td></tr>
+            <tr><td class="bold">Lead baseline</td><td>3 to 5 per week</td><td>Owner's report. No form-source field, call tracking or analytics exists to confirm it or to split branded from non-branded.</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="pt">Data limitations</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:220px">Data</th><th>Status</th><th>Effect on this report</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Google Search Console, GA4</td><td>Not connected</td><td>Every ranking and traffic statement is labeled inferred and comes from live Google results viewed Sept 16, 2026 from one location.</td></tr>
+            <tr><td class="bold">Keyword volume tools</td><td>Not available</td><td>Demand is sourced from Google Autocomplete and "people also search for" boxes. These prove a query exists; they give no volume. No volume figures appear in this report.</td></tr>
+            <tr><td class="bold">Core Web Vitals</td><td>Lab only</td><td>Lighthouse 12 with simulated mobile throttling. Field data (CrUX) is not available for this site. The PageSpeed Insights API quota was exhausted at audit time.</td></tr>
+            <tr><td class="bold">Backlink index</td><td>Not available</td><td>Section 6 lists only links and citations observed directly.</td></tr>
+          </tbody>
+        </table></div>
+        <div class="callout"><b>Lead source ambiguity.</b> Without Search Console, a form source field and a lead log, the share of current leads from the map, from organic pages and from social cannot be separated. Section 9 lists the instrumentation to install before launch so the baseline exists on day one.</div>
+      </div>
+    </section>
+
+    <!-- 03 -->
+    <section class="block" id="s3">
+      <div class="bhead"><span class="ix">03</span><div><h2>Keyword audit</h2><p>What each page targets today, then 36 recommended terms mapped to pages</p></div></div>
+      <div class="panel">
+        <div class="pt">Current on-page targeting</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>URL</th><th>Title tag</th><th>H1</th><th>Meta description</th><th class="num">Words</th><th>Targets</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">/</td><td>Better Insurance Rates - Affordable Coverage with KayRich Insurance</td><td>"Better Insurance rates" plus "We Love because he first loved us" in one H1</td><td>"Discover how our Insurance Agency can help you find Better Insurance rates..."</td><td class="num">367</td><td>"better insurance rates." No city, no line. About 180 of the 367 words describe Laris Motorsports Insurance.</td></tr>
+            <tr><td class="mono">/book-online</td><td>Better Insurance Rates - KayRich Insurance Agency</td><td>none</td><td>"Secure Better Insurance rates now!..."</td><td class="num">49</td><td>Same phrase. Wix Bookings list with one service.</td></tr>
+            <tr><td class="mono">/service-page/auto-home-life-commercial-quote</td><td>Auto/Home/Life/Commercial Quote | KayRich Insurance</td><td>Auto/Home/Life/Commercial Quote</td><td>missing</td><td class="num">69</td><td>Booking detail page. Indexable. Shows a personal Gmail address.</td></tr>
+            <tr><td class="mono">/pricing-plans/plans-pricing</td><td>Plans &amp; Pricing | KayRich Insurance</td><td>none</td><td>missing</td><td class="num">54</td><td>"No plans available." Indexable. Sitemap lastmod 1970-01-01.</td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">Source: raw HTML fetched Sept 16, 2026. Word counts are visible body text. Google shows the first two URLs for <code>site:kayrichinsure.com</code>. The only local signal is the footer address and a LocalBusiness schema block.</div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Recommended targets (36 terms)</div>
+        <p style="margin-bottom:14px">Source tells you how the query was confirmed. <b>Autocomplete</b>: Google suggested it for a seed phrase on Sept 16, 2026. <b>SERP</b>: it appeared in a related-searches or people-also-search-for box. <b>Pattern</b>: constructed from a proven city plus line pattern; Autocomplete returned nothing, so treat as low demand until Search Console shows otherwise. Page paths are the proposed redesign routes.</p>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>Term</th><th>Target page</th><th>Fit</th><th>Source</th></tr></thead>
+          <tbody>
+            <tr class="grp"><td colspan="4">Local, quote-ready</td></tr>
+            <tr><td class="bold">insurance kaufman tx</td><td class="mono">/</td><td>Head term for the home city. Page-one competitors are corporate agent-locator pages.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">car insurance kaufman tx</td><td class="mono">/auto-insurance/</td><td>Highest-frequency line for a small-town agency.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">auto insurance kaufman tx</td><td class="mono">/auto-insurance/</td><td>Secondary phrasing in the H2.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">kaufman county insurance</td><td class="mono">/ and /service-area/</td><td>County phrasing for the homepage intro and the service-area hub.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">farmers insurance kaufman tx</td><td class="mono">/about/</td><td>Only if the Farmers relationship is confirmed. Today the only Kaufman result is another agent's corporate page.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">homeowners insurance kaufman tx</td><td class="mono">/home-insurance/</td><td>Home line page. Expect traffic from Forney and Terrell variants first.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">life insurance kaufman tx</td><td class="mono">/life-insurance/</td><td>Carries the 2025 top-agent award with attribution.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">commercial insurance kaufman tx</td><td class="mono">/business-insurance/</td><td>Newest Google review is a business insured within one day of calling.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">business insurance kaufman tx</td><td class="mono">/business-insurance/</td><td>"Business" in URL and title, "commercial" in body.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">commercial auto insurance texas</td><td class="mono">/business-insurance/</td><td>From account notes. Section on the business page; own page only if she writes fleet and box-truck policies.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">home insurance forney tx</td><td class="mono">/service-area/forney/</td><td>Forney has the richest insurance Autocomplete of any town checked.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">car insurance forney tx</td><td class="mono">/service-area/forney/</td><td>Auto section of the Forney page.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">cheap car insurance near forney tx</td><td class="mono">/service-area/forney/</td><td>Price intent. Answer with how discounts are found, not a rate promise.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">renters insurance forney tx</td><td class="mono">/renters-insurance/</td><td>Renters is not on the site. Confirm the line first.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance broker forney tx</td><td class="mono">/service-area/forney/</td><td>"Broker" implies independent. FAQ answer only, worded to match the confirmed carrier relationship.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance terrell tx</td><td class="mono">/service-area/terrell/</td><td>Terrell Autocomplete is dominated by named agencies. A page naming Terrell neighborhoods can enter that set.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">car insurance terrell tx</td><td class="mono">/service-area/terrell/</td><td>Auto section of the Terrell page.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance companies terrell tx</td><td class="mono">/service-area/terrell/</td><td>Answered by the page FAQ.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance mabank tx</td><td class="mono">/service-area/mabank/</td><td>Confirm she writes in Mabank before building.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">car insurance mabank tx</td><td class="mono">/service-area/mabank/</td><td>Auto section.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance kemp tx</td><td class="mono">/service-area/kemp/</td><td>Three named agencies in Autocomplete. Low-effort page once Mabank exists.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">insurance crandall tx</td><td class="mono">/service-area/crandall/</td><td>Autocomplete returned only an Allstate variant. Build last or fold into Forney.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr><td class="bold">insurance agent near me</td><td class="mono">Business Profile</td><td>Won in the map pack. The site needs to load fast and match the profile.</td><td><span class="tag src">Pattern</span></td></tr>
+            <tr class="grp"><td colspan="4">Comparison</td></tr>
+            <tr><td class="bold">best insurance agency kaufman tx</td><td class="mono">/reviews/</td><td>A reviews page with embedded Google reviews answers it.</td><td><span class="tag src">SERP</span></td></tr>
+            <tr><td class="bold">insurance agency kaufman tx reviews</td><td class="mono">/reviews/</td><td>Same page.</td><td><span class="tag src">SERP</span></td></tr>
+            <tr class="grp"><td colspan="4">Niche: racing</td></tr>
+            <tr><td class="bold">race car insurance</td><td class="mono">/race-car-insurance/</td><td>National term held by Laris, Hagerty and K&amp;K. The page exists to win the Texas variants and convert racers who already follow the owner.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">race car insurance texas</td><td class="mono">/race-car-insurance/</td><td>Map pack shows Laris (Thibodaux, LA) and a Fort Worth agency. A Kaufman agency owned by a racer is a legitimate local result.</td><td><span class="tag src">SERP</span></td></tr>
+            <tr><td class="bold">dirt track race car insurance texas</td><td class="mono">/race-car-insurance/</td><td>Circle track is already listed on the homepage.</td><td><span class="tag src">SERP</span></td></tr>
+            <tr><td class="bold">drag racing insurance</td><td class="mono">/race-car-insurance/</td><td>The owner bracket races. First-person content no carrier page has.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">drag racing insurance cost</td><td class="mono">/race-car-insurance/ FAQ</td><td>Answer with what drives the premium, not a number.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">race car insurance cost</td><td class="mono">/race-car-insurance/ FAQ</td><td>Same treatment.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">race car trailer insurance</td><td class="mono">/race-car-insurance/</td><td>Trailer and motorhome coverage is already on the homepage list.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">race car hauler insurance</td><td class="mono">/race-car-insurance/</td><td>Synonym surfaced by Autocomplete.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">can you insure a race car</td><td class="mono">/race-car-insurance/ FAQ</td><td>First-time racer question. Featured-snippet shape.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr class="grp"><td colspan="4">Research (post-launch articles)</td></tr>
+            <tr><td class="bold">how much is car insurance in texas per month</td><td class="mono">/guides/texas-car-insurance-cost/</td><td>Cite TDI or a named study. No invented figures.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">how to get car insurance in texas</td><td class="mono">/guides/how-to-get-car-insurance-texas/</td><td>Ends in the quote form.</td><td><span class="tag src">Autocomplete</span></td></tr>
+            <tr><td class="bold">is car insurance expensive in texas</td><td class="mono">/guides/texas-car-insurance-cost/</td><td>H2 in the cost guide.</td><td><span class="tag src">Autocomplete</span></td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Competitor set used for the gap</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:230px">Competitor</th><th>What they rank with</th><th>Gap</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Amanda Verde, State Farm<br><span style="font-weight:500;color:var(--muted)">amandaverdesf.com</span></td><td>Custom site with a page per product (auto, motorcycle, homeowners, condo, renters, business, life, pet, boat). Names Kaufman, Crandall, Mabank, Kemp and six counties. 321 Google reviews at 5.0.</td><td>Per-line pages, named towns, review volume.</td></tr>
+            <tr><td class="bold">Justin Smith, Farmers<br><span style="font-weight:500;color:var(--muted)">agents.farmers.com</span></td><td>First organic result for "insurance agency kaufman tx" on the corporate locator alone. Product sub-pages, FAQ, reviews section.</td><td>KayRich is absent from the Farmers locator for Kaufman.</td></tr>
+            <tr><td class="bold">David Adams, Allstate<br><span style="font-weight:500;color:var(--muted)">agents.allstate.com</span></td><td>Corporate page, 181 reviews at 4.6, states in-person or virtual appointments.</td><td>Review volume, appointment options stated on page.</td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">Observed Sept 16, 2026. The independent agency RHSR (Rowden Hendrickson Shipley &amp; Rymer) runs on a Google Sites page and ranks through Yelp, Travelers and Progressive listings, which shows how much of this results page is citations rather than websites.</div>
+      </div>
+    </section>
+
+    <!-- 04 -->
+    <section class="block" id="s4">
+      <div class="bhead"><span class="ix">04</span><div><h2>Technical issues</h2><p>Ordered by expected effect on inquiries</p></div></div>
+      <div class="panel">
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>#</th><th>URL</th><th>Issue</th><th>Severity</th><th>Evidence</th><th>Fix</th><th>Tag</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1</td><td class="bold">Google Business Profile</td><td>Website field points to <code>krichagency.com</code>, which does not resolve. Map-pack Website clicks fail.</td><td><span class="tag crit">Critical</span></td><td>Google Maps listing "KayRich Insurance Agency," read Sept 16, 2026. DNS lookup for krichagency.com and www.krichagency.com returned no record; Google has no indexed page for the domain.</td><td>Set website to <code>https://www.kayrichinsure.com/?utm_source=gbp</code> so profile clicks can be counted.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">2</td><td class="mono">/</td><td>Six social-bar icons link to facebook.com, instagram.com, youtube.com, x.com, linkedin.com and tiktok.com home pages. Only the Facebook share icons reach a real page.</td><td><span class="tag high">High</span></td><td>Homepage anchors: <code>href="http://www.facebook.com"</code>, <code>href="http://www.instagram.com"</code> and so on, all target="_blank".</td><td>Replace each with the agency profile URL, remove icons for unused networks, add the same URLs to schema sameAs.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">3</td><td class="bold">Site, Business Profile, Facebook, account records</td><td>Name, address, phone and email disagree across properties.</td><td><span class="tag high">High</span></td><td>Site: "KayRich Insurance," "107 C North Jackson Street," Contact@krichinsure.com. Booking page: "107C N Jackson St, USA," Kayp4434@gmail.com. Owner line: a farmersagent.com address. Business Profile: "KayRich Insurance Agency," "107 N Jackson St." Facebook: "KayRich, Insurance Agency," second phone (985) 364-2157. Account notes: a County Road 4095 address.</td><td>One canonical set: "KayRich Insurance Agency," "107 N Jackson St, Kaufman, TX 75142," "(214) 773-3938," one email on the kayrichinsure.com domain. Apply to every page, schema, Facebook, Nextdoor.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">4</td><td class="mono">/</td><td>Title and H1 target "Better Insurance Rates," with no local or product intent. The H1 also carries the scripture line.</td><td><span class="tag high">High</span></td><td><code>&lt;title&gt;Better Insurance Rates - Affordable Coverage with KayRich Insurance&lt;/title&gt;</code>; H1 text "Better Insurance rates / We Love because he first loved us."</td><td>Title: "Insurance Agency in Kaufman, TX | KayRich Insurance Agency." H1: "Auto, home, life and business insurance in Kaufman, TX." Keep the verse as a styled paragraph below the H1.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">5</td><td class="mono">/ (mobile)</td><td>Lighthouse mobile lab: performance 29, LCP 10.2 s, TBT 3,930 ms, Speed Index 7.9 s, TTI 19.3 s. 283 requests, 2,885 KiB, 150 scripts (1,529 KiB), 279 of 283 requests third-party.</td><td><span class="tag high">High</span></td><td>Lighthouse 12, simulated mobile throttling, Sept 16, 2026. Server response 170 ms, so the weight is the Wix runtime, not hosting.</td><td>Not fixable on Wix. The static build targets LCP under 2.5 s and under 30 homepage requests.</td><td><span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">6</td><td class="mono">/</td><td>Contact form requires Address and Birthday. The booking CTA commits the visitor to a 1-hour appointment.</td><td><span class="tag high">High</span></td><td>Form fields marked required: first name, last name, email, phone, address, birthday, quote type. Service page shows "1 hr."</td><td>Make Address and Birthday optional now. In the redesign, lead with a short quote form (name, phone, email, line, ZIP) and offer the appointment second.</td><td><span class="tag fix">Fix now</span> <span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">7</td><td class="bold">Whole site</td><td>Two pages indexed; no page for any line of business or town.</td><td><span class="tag crit">Critical</span></td><td><code>site:kayrichinsure.com</code> returned <code>/</code> and <code>/book-online</code>, Sept 16, 2026.</td><td>Route plan in section 7: four line pages, town pages, racing page, about, reviews, contact.</td><td><span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">8</td><td class="mono">/pricing-plans/plans-pricing</td><td>Indexable page reading "No plans available." In the sitemap with lastmod 1970-01-01.</td><td><span class="tag med">Medium</span></td><td>Page HTML: <code>&lt;meta name="robots" content="index"&gt;</code>, canonical set, body "No plans available."</td><td>Remove the Wix Pricing Plans app or hide the page from search in Wix SEO settings. Confirm it leaves the sitemap.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">9</td><td class="mono">/service-page/auto-home-life-commercial-quote</td><td>Indexable 69-word booking page. No meta description. Shows a personal Gmail address.</td><td><span class="tag med">Medium</span></td><td>Page HTML: robots index, no description tag, body contains Kayp4434@gmail.com.</td><td>Noindex in Wix Bookings SEO settings, remove the Gmail address. Redirect to <code>/contact/</code> at launch.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">10</td><td class="mono">/</td><td>Schema is a generic LocalBusiness with name, address and phone only. Name has a trailing space. No hours, geo, image, sameAs, areaServed, priceRange or InsuranceAgency type.</td><td><span class="tag med">Medium</span></td><td>JSON-LD block: <code>"@type":"LocalBusiness","name":"KayRich Insurance "</code>.</td><td>Replace with the InsuranceAgency block in section 7. Wix allows custom structured data per page.</td><td><span class="tag fix">Fix now</span> <span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">11</td><td class="mono">/</td><td>The racing section sends the visitor off-site to a partner domain. About half the homepage words describe Laris, not KayRich.</td><td><span class="tag med">Medium</span></td><td>Anchor "Get A Quote Today!" to <code>qrco.de/KayleighRichards</code>, 302 to <code>larismotorsportsinsurance.com/quote-tracking/kayleigh-richards</code>.</td><td>Capture the racer on a KayRich page first (name, phone, what they race), then hand off to Laris. Keep the Laris relationship visible.</td><td><span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">12</td><td class="mono">/</td><td>Four of eight images have empty alt text; the first image's alt is the filename "IMG_1594.jpg."</td><td><span class="tag low">Low</span></td><td>Image extraction from homepage HTML.</td><td>Alt text that names the subject.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">13</td><td class="mono">/book-online</td><td>No H1. Title repeats the homepage phrase.</td><td><span class="tag low">Low</span></td><td>Page HTML: zero h1 elements.</td><td>H1 "Book a quote appointment in Kaufman, TX." Title "Book an Insurance Quote Appointment | KayRich Insurance Agency."</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">14</td><td class="mono">/</td><td>"Trusted by 5k+ families" and "Named Top Agent for Life Insurance in 2025" carry no attribution.</td><td><span class="tag low">Low</span></td><td>Homepage body text.</td><td>Add who gave the award and the basis of the 5k figure, or remove.</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="num">15</td><td class="mono">/</td><td>Accessibility: aria attributes do not match their roles (Wix social bar).</td><td><span class="tag low">Low</span></td><td>Lighthouse 12 accessibility 95, one failing audit: aria-allowed-attr.</td><td>Resolved by the rebuild, which targets WCAG 2.1 AA.</td><td><span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="num">16</td><td class="bold">All variants</td><td>Passing: HTTP to HTTPS 301, apex to www 301, canonical on every page points to the production domain, robots.txt allows crawling, sitemap valid, lang="en", CLS 0.</td><td><span class="tag pass">Pass</span></td><td>Header checks and HTML inspection, Sept 16, 2026.</td><td>Carry forward. On the new build, confirm canonical and og:url never point at the Vercel preview domain.</td><td><span class="tag redesign">Redesign</span></td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote"><b>Who does what.</b> Shippable in Wix today: items 2, 3, 4, 6 (form fields), 8, 9, 10, 12, 13, 14. Needs an external login: item 1 (Business Profile), item 3 (Facebook, Nextdoor). Needs the rebuild: items 5, 7, 11, 15.</div>
+      </div>
+    </section>
+
+    <!-- 05 -->
+    <section class="block" id="s5">
+      <div class="bhead"><span class="ix">05</span><div><h2>On-page, content, and local findings</h2><p>Content coverage by line, local search demand by town, Business Profile and reviews</p></div></div>
+
+      <div class="panel">
+        <div class="pt">Content coverage by line</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>Line</th><th>On site today</th><th>Redesign page</th><th>Post-launch support content</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Auto</td><td>1 sentence</td><td class="mono">/auto-insurance/</td><td>Texas cost guide; "how to get car insurance in Texas"</td></tr>
+            <tr><td class="bold">Home</td><td>1 sentence</td><td class="mono">/home-insurance/</td><td>Hail and roof coverage FAQ, if hail claims are common in the book</td></tr>
+            <tr><td class="bold">Life</td><td>1 sentence plus award claim</td><td class="mono">/life-insurance/</td><td>Award attribution; term vs whole in plain English</td></tr>
+            <tr><td class="bold">Commercial</td><td>1 sentence</td><td class="mono">/business-insurance/</td><td>The "insured within one day" review as a story; commercial auto and trucking section if confirmed</td></tr>
+            <tr><td class="bold">Race car, trailer, motorhome</td><td>Laris copy plus off-site CTA</td><td class="mono">/race-car-insurance/</td><td>"Can you insure a race car," "what drives the cost," first-person bracket racing content</td></tr>
+            <tr><td class="bold">Renters, umbrella, motorcycle, trucking</td><td>absent</td><td>confirm before building</td><td></td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">Each line page: 400 to 700 words on what the policy covers in Texas terms (liability minimums, windstorm and hail, flood exclusions), what the agent asks a client, one real review, the quote form. The homepage keeps a two-sentence summary per line linking down. Heading structure today: one H1 with two lines, H2s that include a blank span and two Laris paragraphs, Auto as an H3 while Home and Life are H2s. New structure: one H1, one H2 per section, body copy as paragraphs.</div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Local search demand by town (Google Autocomplete, Sept 16, 2026)</div>
+        <div class="table-wrap"><table class="matrix">
+          <thead><tr><th class="rowh">Town</th><th>insurance [town] tx</th><th>car insurance</th><th>home insurance</th><th>renters</th><th>life</th><th>commercial or business</th><th>named agencies suggested</th></tr></thead>
+          <tbody>
+            <tr><th class="rowh">Kaufman</th><td class="y">yes</td><td class="y">yes</td><td class="n">none</td><td class="u">not checked</td><td class="n">none</td><td class="n">none</td><td class="y">7</td></tr>
+            <tr><th class="rowh">Forney</th><td class="y">yes</td><td class="y">yes</td><td class="y">yes</td><td class="y">yes</td><td class="u">not checked</td><td class="u">not checked</td><td class="y">5</td></tr>
+            <tr><th class="rowh">Terrell</th><td class="y">yes</td><td class="y">yes</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="y">6</td></tr>
+            <tr><th class="rowh">Mabank</th><td class="y">yes</td><td class="y">yes</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="y">5</td></tr>
+            <tr><th class="rowh">Kemp</th><td class="y">yes</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="y">3</td></tr>
+            <tr><th class="rowh">Crandall</th><td class="n">none</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="u">not checked</td><td class="y">1</td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">"yes" means Google suggested the query for that seed. "none" means the seed returned no suggestions. Autocomplete confirms a query exists; it does not give volume. Forney returned home, renters, car and broker variants; Terrell and Mabank returned car and named-agency variants; Kaufman returned no home, life or commercial variants. The home city is the smallest of the three main markets by this signal.</div>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <div class="pt">Google reviews, local set</div>
+          <div class="bar-row"><div class="lab">Amanda Verde<small>State Farm</small></div><div class="bar"><i style="background:#9cc4ec" data-w="100">321</i></div><div class="val">5.0 rating</div></div>
+          <div class="bar-row"><div class="lab">David Adams<small>Allstate</small></div><div class="bar"><i style="background:#3a92e0" data-w="56">181</i></div><div class="val">4.6 rating</div></div>
+          <div class="bar-row"><div class="lab">KayRich<small>Insurance Agency</small></div><div class="bar"><i style="background:#057BE5" data-w="4">5</i></div><div class="val">5.0 rating</div></div>
+          <div class="fnote">Observed Sept 16, 2026. KayRich reviews are recent (19 hours, one week, two months) and specific.</div>
+        </div>
+        <div class="panel">
+          <div class="pt">Business Profile status and actions</div>
+          <div class="table-wrap"><table class="ctable">
+            <thead><tr><th style="width:150px">Element</th><th>Today</th><th>Action</th></tr></thead>
+            <tbody>
+              <tr><td class="bold">Website</td><td>krichagency.com (dead)</td><td>kayrichinsure.com with utm_source=gbp <span class="tag fix">Fix now</span></td></tr>
+              <tr><td class="bold">Name</td><td>KayRich Insurance Agency</td><td>Keep; align the site and Facebook to it.</td></tr>
+              <tr><td class="bold">Primary category</td><td>Insurance agency</td><td>Keep. Add secondary "Auto insurance agency." <span class="tag fix">Fix now</span></td></tr>
+              <tr><td class="bold">Services</td><td>Not listed</td><td>Add auto, home, life, business, race car with descriptions. <span class="tag fix">Fix now</span></td></tr>
+              <tr><td class="bold">Photos, posts</td><td>Last update 12 weeks ago</td><td>10+ photos (office, team, track). Weekly post. <span class="tag post">Post-launch</span></td></tr>
+              <tr><td class="bold">Reviews</td><td>5 at 5.0</td><td>Ask at every bind by text with the short review link. Reply to each, naming the line. Never gate or incentivize. <span class="tag fix">Fix now</span> <span class="tag post">Post-launch</span></td></tr>
+              <tr><td class="bold">Hours, team, about</td><td>Hours on profile only; two new agents (Danielle Hernandez, Kaitlyn Mae Bryce) announced on Facebook; two of five reviews name Danielle</td><td>/about/ with each agent, license number, photo, office hours. Hours also in footer and schema. <span class="tag redesign">Redesign</span></td></tr>
+            </tbody>
+          </table></div>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:18px">
+        <div class="pt">Citations</div>
+        <p>Not in the Yellow Pages Kaufman insurance list (154 entries). Not in the Farmers agent locator for Kaufman. A Google search for "KayRich Insurance" returns the Business Profile, the site, Facebook, Nextdoor and nothing else.</p>
+        <p style="margin-top:10px">Claim or create with the canonical name, address and phone: Farmers agent locator (through the district office), Yelp, Bing Places, Apple Business Connect, Nextdoor (verify the existing listing), Kaufman Chamber of Commerce, Yellow Pages, BBB. Skip paid aggregators. Trusted Choice only if the agency is confirmed independent. <span class="tag post">Post-launch</span></p>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Quote form and call placement</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Short quote form in the first screen of every ranking page</div><div class="check-text">Name, phone, email, line, ZIP. Hidden fields capture page URL and referrer. Today the only form sits at the bottom of the homepage after the Laris section and requires address and birthday. <span class="tag redesign">Redesign</span></div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Sticky call bar on mobile</div><div class="check-text">"Call (214) 773-3938" as a tel: link, digit-for-digit the Business Profile number. <span class="tag redesign">Redesign</span></div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Appointment booking becomes the second option</div><div class="check-text">Keep the calendar on /contact/ for people who want a scheduled call; it is no longer the primary path. <span class="tag redesign">Redesign</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 -->
+    <section class="block" id="s6">
+      <div class="bhead"><span class="ix">06</span><div><h2>Authority and links</h2><p>What could be observed without a link index, and where links are realistic for a one-location agency</p></div></div>
+      <div class="panel">
+        <div class="pt">Observed today</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:240px">Property</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Facebook page "KayRich, Insurance Agency"</td><td>370+ followers per Google snippet. Active posts (new-agent announcement, racing content). The site links to it only through a share URL.</td></tr>
+            <tr><td class="bold">TikTok, Instagram, YouTube, X</td><td>Account notes report about 11,000 TikTok followers. Not verifiable from the site, which links to none of them.</td></tr>
+            <tr><td class="bold">Nextdoor</td><td>Business listing exists ("Home, Auto, Commercial and Life Insurance. Also specializing in Race Car insurance").</td></tr>
+            <tr><td class="bold">Laris Motorsports Insurance</td><td>Hosts a quote-tracking page for the owner. Not checked for a link back to kayrichinsure.com.</td></tr>
+            <tr><td class="bold">Directories, chamber, carrier, press</td><td>No links found through search.</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <div class="pt">Link opportunities, ranked by fit</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:210px">Source</th><th>Why it fits</th><th>Ask</th><th>Effort</th><th>Tag</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Farmers agent locator</td><td>Highest-authority link available and a citation Google trusts for a Farmers agent. Missing from the Kaufman list today.</td><td>District manager or agent support: add the agency with website kayrichinsure.com.</td><td>S</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold">Laris Motorsports partner page</td><td>Topically exact link from a site that ranks nationally for race car insurance.</td><td>Link the agent page to <code>/race-car-insurance/</code>.</td><td>S</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold">Kaufman and Terrell chambers of commerce</td><td>Local directory links standard for agencies in the county.</td><td>Join; complete the member listing.</td><td>S</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold">Race tracks (Texas Motorplex and the tracks she races at)</td><td>Sponsor and event pages link to sponsors. Real relationship, exact relevance to the racing page.</td><td>Sponsor a class or a race night; request the sponsor listing link.</td><td>M</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold">Youth sports (Joshua Outlaws All-Stars softball, per account notes)</td><td>Team and tournament sites list sponsors.</td><td>Request a clickable listing on the sponsor page.</td><td>M</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold">Own social profiles</td><td>Send the existing audience to the site and confirm entity identity to Google.</td><td>Website link in every bio; link each profile from the site; sameAs in schema.</td><td>S</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold">Local press (Kaufman Herald, county news)</td><td>A woman-owned agency run by a bracket racer is a story a local paper prints.</td><td>Pitch once the racing page exists.</td><td>M</td><td><span class="tag post">Post-launch</span></td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">No purchased directory packages or guest posts. Five real local links and 50 reviews outweigh anything purchasable for a one-location agency.</div>
+      </div>
+    </section>
+
+    <!-- 07 -->
+    <section class="block" id="s7">
+      <div class="bhead"><span class="ix">07</span><div><h2>Redesign SEO requirements and migration checklist</h2><p>For whoever builds the new site. Assumes a static build on Vercel with www.kayrichinsure.com as production.</p></div></div>
+
+      <div class="panel">
+        <div class="pt">Site architecture</div>
+        <div class="tree-box"><span class="folder">kayrichinsure.com/</span>
+├── /                          <span class="note">homepage: Kaufman, four lines, quote form first screen</span>
+├── /auto-insurance/
+├── /home-insurance/
+├── /life-insurance/
+├── /business-insurance/       <span class="note">commercial, commercial auto, trucking if confirmed</span>
+├── /race-car-insurance/       <span class="note">race car, trailer, hauler, motorhome; captures before Laris hand-off</span>
+├── /service-area/
+│   ├── /forney/               <span class="note">launch</span>
+│   ├── /terrell/              <span class="note">launch</span>
+│   ├── /mabank/               <span class="note">month 2, if confirmed</span>
+│   ├── /kemp/                 <span class="note">month 2, if confirmed</span>
+│   └── /crandall/             <span class="note">decide from Search Console data</span>
+├── /about/                    <span class="note">owner story, each agent with license number, hours</span>
+├── /reviews/                  <span class="note">embedded Google reviews</span>
+├── /contact/                  <span class="note">quote form, tel link, map, booking as second option</span>
+├── /renters-insurance/        <span class="note">only if the line is confirmed</span>
+└── /guides/                   <span class="note">post-launch articles</span></div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">URLs to preserve or redirect</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>Current URL</th><th>Status</th><th>Action at launch</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">/</td><td>Indexed; carries the brand and the Business Profile link once fixed</td><td>Keep. Same domain, same path.</td></tr>
+            <tr><td class="mono">/book-online</td><td>Indexed; appears for the brand query</td><td>301 to <code>/contact/</code></td></tr>
+            <tr><td class="mono">/service-page/auto-home-life-commercial-quote</td><td>Indexable, thin</td><td>301 to <code>/contact/</code></td></tr>
+            <tr><td class="mono">/pricing-plans/plans-pricing</td><td>Indexable, empty</td><td>301 to <code>/</code> or serve 410</td></tr>
+            <tr><td class="mono">/book-online#Section%201</td><td>Fragment link used by the hero CTA</td><td>Covered by the /book-online redirect</td></tr>
+            <tr><td class="mono">http:// and apex variants</td><td>301 today</td><td>Vercel domain settings: apex to www, force HTTPS, HSTS</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Route plan: titles and H1s</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>Route</th><th>Title tag</th><th>H1</th><th>Primary term</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">/</td><td>Insurance Agency in Kaufman, TX | KayRich Insurance Agency</td><td>Auto, home, life and business insurance in Kaufman, TX.</td><td>insurance kaufman tx</td></tr>
+            <tr><td class="mono">/auto-insurance/</td><td>Car Insurance in Kaufman, TX | KayRich Insurance Agency</td><td>Car insurance in Kaufman, TX.</td><td>car insurance kaufman tx</td></tr>
+            <tr><td class="mono">/home-insurance/</td><td>Home Insurance in Kaufman, TX | KayRich Insurance Agency</td><td>Home insurance in Kaufman County.</td><td>homeowners insurance kaufman tx</td></tr>
+            <tr><td class="mono">/life-insurance/</td><td>Life Insurance in Kaufman, TX | KayRich Insurance Agency</td><td>Life insurance from a Kaufman agent.</td><td>life insurance kaufman tx</td></tr>
+            <tr><td class="mono">/business-insurance/</td><td>Business Insurance in Kaufman, TX | KayRich Insurance</td><td>Business insurance in Kaufman, TX.</td><td>business insurance kaufman tx</td></tr>
+            <tr><td class="mono">/race-car-insurance/</td><td>Race Car Insurance in Texas | KayRich Insurance Agency</td><td>Race car insurance in Texas, from a racer.</td><td>race car insurance texas</td></tr>
+            <tr><td class="mono">/service-area/forney/</td><td>Insurance in Forney, TX | KayRich Insurance Agency</td><td>Home and car insurance in Forney, TX.</td><td>home insurance forney tx</td></tr>
+            <tr><td class="mono">/service-area/terrell/</td><td>Insurance in Terrell, TX | KayRich Insurance Agency</td><td>Car and home insurance in Terrell, TX.</td><td>insurance terrell tx</td></tr>
+            <tr><td class="mono">/about/</td><td>About KayRich Insurance Agency | Kaufman, TX</td><td>Meet Kayleigh and the team.</td><td>farmers insurance kaufman tx (if confirmed)</td></tr>
+            <tr><td class="mono">/reviews/</td><td>KayRich Insurance Agency Reviews | Kaufman, TX</td><td>What clients say.</td><td>insurance agency kaufman tx reviews</td></tr>
+            <tr><td class="mono">/contact/</td><td>Get a Quote or Book a Call | KayRich Insurance Agency</td><td>Get a quote.</td><td>conversion page</td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">Every town page carries a unique 150-word intro with real local detail (where clients are met, which neighborhoods, drive time from the Kaufman office) and its own quote form. No cloned pages with the city swapped.</div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Site-wide schema (replaces the current LocalBusiness block)</div>
+        <div class="code-box">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "InsuranceAgency",
+  "@id": "https://www.kayrichinsure.com/#agency",
+  "name": "KayRich Insurance Agency",
+  "alternateName": "KayRich Insurance",
+  "url": "https://www.kayrichinsure.com/",
+  "telephone": "+1-214-773-3938",
+  "email": "REPLACE with the one canonical email",
+  "image": "https://www.kayrichinsure.com/images/office.jpg",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "107 N Jackson St",
+    "addressLocality": "Kaufman",
+    "addressRegion": "TX",
+    "postalCode": "75142",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": REPLACE, "longitude": REPLACE },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "REPLACE", "closes": "17:00"
+  }],
+  "areaServed": [
+    {"@type":"City","name":"Kaufman"},{"@type":"City","name":"Forney"},
+    {"@type":"City","name":"Terrell"},{"@type":"City","name":"Crandall"},
+    {"@type":"City","name":"Kemp"},{"@type":"City","name":"Mabank"}
+  ],
+  "founder": { "@type": "Person", "name": "Kayleigh Richards" },
+  "sameAs": [ "REPLACE with the real Facebook, TikTok and Instagram URLs" ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog", "name": "Insurance",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Auto insurance"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Home insurance"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Life insurance"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Business insurance"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Race car insurance"}}
+    ]
+  }
+}
+&lt;/script&gt;</div>
+        <div class="fnote">Values marked REPLACE are not known from the audit. The Business Profile shows "closes 5 PM" but not the opening time. Add a FAQPage block only on pages with a visible FAQ, and a Person block per agent on /about/ with jobTitle and TX license number.</div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Pre-launch checklist</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Canonical and og:url are absolute production URLs</div><div class="check-text">Grep the build output for <code>vercel.app</code> before deploy. Preview deployments send X-Robots-Tag: noindex (verify with curl).</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Redirect map in vercel.json, tested with curl before DNS moves</div><div class="check-text">The four redirects in the table above. Wix stays live until the redirects are confirmed, then the Wix domain connection is removed the same day.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Unique title and meta description on every route; one H1 per page</div><div class="check-text">Titles from the route plan. H2s match the section names. No styled paragraphs as headings.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Name, address, phone and hours identical to the Business Profile</div><div class="check-text">Phone as a tel: link in the mobile header. Address and hours in the footer.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Quote form above the fold on a 390 px viewport, submissions countable</div><div class="check-text">Required fields: name, phone, email, line, ZIP. Hidden page URL and referrer. Submissions land in email plus a sheet or CRM with the source field intact.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">GA4 with form_submit and tel_click events; Search Console domain property verified before launch</div><div class="check-text">Verifying the domain property now keeps the Wix-era data in the same property.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Schema validated in the Rich Results Test on /, /about/ and one line page</div><div class="check-text">InsuranceAgency block site-wide; Person blocks on /about/.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Sitemap at /sitemap.xml, listed in robots.txt, no 1970 dates; 404 page returns a real 404</div><div class="check-text">404 page links to the line pages.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Images in WebP or AVIF with width, height and descriptive alt; hero under 150 KB</div><div class="check-text">Lighthouse mobile on / and one line page: performance 90+, LCP under 2.5 s, TBT under 200 ms, no third-party script except analytics.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Footer social links go to the real profiles and appear in sameAs</div><div class="check-text">Remove icons for networks the agency does not use.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">After launch</div><div class="check-text">Submit the sitemap in Search Console, request indexing for the eleven routes, confirm the Business Profile website field, re-check the profile in one week for a Google-detected change.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 -->
+    <section class="block" id="s8">
+      <div class="bhead"><span class="ix">08</span><div><h2>Roadmap</h2><p>Pre-launch on the current site, then 30 / 60 / 90 days after the redesign launches</p></div></div>
+
+      <div class="tl">
+        <div class="ph pre"><div class="w">Before launch</div><div class="t">Repair the local layer</div><ul><li>Business Profile website, services, photos, description</li><li>One name, address, phone everywhere</li><li>Title, H1, alt text, form fields, two junk pages out of the index</li><li>Review ask at every bind</li><li>Search Console and GA4 on Wix for a baseline</li></ul></div>
+        <div class="ph"><div class="w">Days 1 to 30</div><div class="t">Launch and index</div><ul><li>Eleven routes, redirects, schema, forms with source field</li><li>Farmers locator request</li><li>Laris link request</li><li>Yelp, Bing, Apple, chamber listings</li><li>Weekly Business Profile post</li><li>Coverage check in Search Console</li></ul></div>
+        <div class="ph"><div class="w">Days 31 to 60</div><div class="t">Extend the footprint</div><ul><li>Mabank and Kemp pages if confirmed</li><li>Racing page FAQ expansion</li><li>Agent bios with license numbers</li><li>First query review: branded vs non-branded</li><li>Review count check</li></ul></div>
+        <div class="ph p3"><div class="w">Days 61 to 90</div><div class="t">Content and links</div><ul><li>Texas car insurance cost guide</li><li>"How to get car insurance in Texas"</li><li>Track sponsorship link; local press pitch</li><li>Internal-link pass</li><li>Decide Crandall and renters from data</li></ul></div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">Action items with owner, effort and expected effect on the lead goal</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:105px">Phase</th><th>Item</th><th style="width:110px">Owner</th><th style="width:60px">Effort</th><th style="width:90px">Impact</th><th style="width:110px">Tag</th></tr></thead>
+          <tbody>
+            <tr><td class="bold" style="color:#B3262B">Pre-launch</td><td>Business Profile website to kayrichinsure.com; add services, photos, description, service area, secondary category</td><td>Owner</td><td>S</td><td>High</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold" style="color:#B3262B">Pre-launch</td><td>Canonical name, address, phone applied to site, Facebook, Nextdoor; personal Gmail and second phone removed from public pages</td><td>Owner + web dev</td><td>S</td><td>High</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold" style="color:#B3262B">Pre-launch</td><td>Social icons to real profiles; bio links on TikTok and Facebook to the site; noindex pricing and service pages; title and H1 rewrite; alt text; address and birthday optional on the form</td><td>Web dev</td><td>S</td><td>Medium</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold" style="color:#B3262B">Pre-launch</td><td>Review request by text at every bind, using the Business Profile short link</td><td>Owner</td><td>S</td><td>High</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold" style="color:#B3262B">Pre-launch</td><td>Search Console domain property verified; GA4 installed on Wix so a baseline exists before the switch</td><td>Web dev</td><td>S</td><td>High</td><td><span class="tag fix">Fix now</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Launch with the eleven routes, redirects, schema, quote forms with source field, sticky call bar</td><td>Web dev</td><td>L</td><td>High</td><td><span class="tag redesign">Redesign</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Request the Farmers agent locator listing with the new URL</td><td>Owner</td><td>S</td><td>High</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Ask Laris for a link from the agent page to /race-car-insurance/</td><td>Owner</td><td>S</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Claim Yelp, Bing Places, Apple Business Connect, Kaufman chamber listing with the canonical name, address, phone</td><td>Owner</td><td>M</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Weekly Business Profile post (racing and insurance tips alternating); reply to every review</td><td>Owner</td><td>S weekly</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--blue)">Days 1 to 30</td><td>Search Console coverage: all eleven routes indexed, zero redirect errors</td><td>Web dev</td><td>S</td><td>High</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--sky)">Days 31 to 60</td><td>Mabank and Kemp service-area pages (only if she writes there)</td><td>Writer + web dev</td><td>M</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--sky)">Days 31 to 60</td><td>Racing page FAQ: "can you insure a race car," what drives the cost, trailer and hauler coverage (interview the owner)</td><td>Writer</td><td>M</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--sky)">Days 31 to 60</td><td>Agent bios on /about/ with license numbers and photos; Person schema</td><td>Owner + web dev</td><td>S</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--sky)">Days 31 to 60</td><td>First Search Console query review: branded vs non-branded split; which town pages get impressions</td><td>Web dev</td><td>S</td><td>High</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--sky)">Days 31 to 60</td><td>Review count check against the target of 4 new reviews per month</td><td>Owner</td><td>S</td><td>High</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--mint-d)">Days 61 to 90</td><td>Guide: "How much is car insurance in Texas per month," cited to TDI or a named study, ending in the quote form</td><td>Writer</td><td>M</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--mint-d)">Days 61 to 90</td><td>Guide: "How to get car insurance in Texas"</td><td>Writer</td><td>M</td><td>Low to medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--mint-d)">Days 61 to 90</td><td>Track sponsorship with a sponsor-page link; youth sports sponsor listing; local press pitch</td><td>Owner</td><td>M</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--mint-d)">Days 61 to 90</td><td>Internal-link pass: guides link to line and town pages; town pages link to all four line pages</td><td>Web dev</td><td>S</td><td>Medium</td><td><span class="tag post">Post-launch</span></td></tr>
+            <tr><td class="bold" style="color:var(--mint-d)">Days 61 to 90</td><td>Decide Crandall page and renters page from Search Console impressions</td><td>Web dev</td><td>S</td><td>Low</td><td><span class="tag post">Post-launch</span></td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote"><b>Smallest version.</b> If time is short: Business Profile repair, the review habit, the four line pages, Forney, Terrell and the racing page. The guides and the Crandall, Kemp and Mabank pages are the cuts.</div>
+      </div>
+    </section>
+
+    <!-- 09 -->
+    <section class="block" id="s9">
+      <div class="bhead"><span class="ix">09</span><div><h2>Measurement plan</h2><p>Instrument first, then a 10-minute weekly check and a 30-minute monthly review</p></div></div>
+      <div class="panel">
+        <div class="pt">Instrument before launch</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Search Console domain property</div><div class="check-text">Saved query filters: branded (regex <code>kay ?rich|kayleigh|krich</code>) and non-branded (everything else).</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">GA4 events</div><div class="check-text"><code>form_submit</code> with the hidden page-URL field, and <code>tel_click</code>. The Business Profile link carries <code>utm_source=gbp</code>.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Lead log</div><div class="check-text">One row per inquiry: date, source (organic form, profile call, profile message, social, referral, walk-in), line, town, bound yes or no. Filled at first contact. This is the number the goal is measured on; Search Console and GA4 explain it.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Call tracking, optional</div><div class="check-text">If used, the Business Profile and site number stay identical and dynamic insertion runs on the site only, so name, address and phone consistency is not broken.</div></div></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="pt">Weekly check</div>
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th>Metric</th><th>Source</th><th>Checkpoint at month 3</th><th>Checkpoint at month 6</th></tr></thead>
+          <tbody>
+            <tr><td class="bold">Organic inquiries (form + profile calls + profile messages)</td><td>Lead log</td><td>5 to 7 per week</td><td>6 to 15 per week</td></tr>
+            <tr><td class="bold">Share of inquiries that are non-branded</td><td>Lead log + Search Console</td><td>25% or more</td><td>50% or more</td></tr>
+            <tr><td class="bold">Non-branded clicks</td><td>Search Console, non-branded filter</td><td>Rising week over week from a near-zero base</td><td>More clicks than branded</td></tr>
+            <tr><td class="bold">Impressions for line and town pages</td><td>Search Console pages report</td><td>Every launched page has impressions</td><td>Forney and Terrell in the top five pages by impressions</td></tr>
+            <tr><td class="bold">Profile actions: calls, website clicks, directions</td><td>Business Profile performance</td><td>Website clicks above zero (zero today, the URL is dead)</td><td>Calls and clicks doubled from month 1</td></tr>
+            <tr><td class="bold">Google review count</td><td>Business Profile</td><td>15 or more</td><td>30 or more</td></tr>
+            <tr><td class="bold">Map-pack presence for "insurance agency kaufman tx"</td><td>Manual check from a Kaufman IP, or a local-grid rank tracker</td><td>In the pack inside Kaufman city limits</td><td>In the pack from Forney and Terrell for at least one line term</td></tr>
+          </tbody>
+        </table></div>
+        <div class="fnote">Checkpoints are targets set against the stated goal, not forecasts. If the lead log shows the current baseline below 3 per week, the target stands and the timeline is restated from the measured baseline in month one.</div>
+      </div>
+      <div class="panel">
+        <div class="pt">Monthly review</div>
+        <div class="checklist">
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Search Console queries</div><div class="check-text">Non-branded terms with impressions but no clicks are title-rewrite candidates. Pages with clicks but no leads are CTA-placement candidates.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Lead log by source and town</div><div class="check-text">If branded still supplies 80% or more of leads at month 3, check that the town pages are indexed and ranking before writing more content.</div></div></div>
+          <div class="check-item"><div class="check-box"></div><div><div class="check-title">Lighthouse mobile after every deploy</div><div class="check-text">Added scripts are the usual cause of slow drift.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="block" id="s10">
+      <div class="bhead"><span class="ix">10</span><div><h2>Items to confirm</h2><p>Answers that change copy or scope</p></div></div>
+      <div class="panel">
+        <div class="table-wrap"><table class="ctable">
+          <thead><tr><th style="width:36px">#</th><th>Question</th><th>What it changes</th></tr></thead>
+          <tbody>
+            <tr><td class="num">1</td><td class="bold">Carrier relationship: Farmers captive, independent, or both?</td><td>Whether any page may say "independent," "broker" or "we shop multiple carriers," and whether the Farmers locator and Trusted Choice listings apply.</td></tr>
+            <tr><td class="num">2</td><td class="bold">Which towns are actually written: Mabank, Kemp, Crandall?</td><td>Which service-area pages get built in month 2.</td></tr>
+            <tr><td class="num">3</td><td class="bold">Lines beyond the four on the site: renters, umbrella, motorcycle, trucking, commercial auto?</td><td>Extra pages or sections on the business page.</td></tr>
+            <tr><td class="num">4</td><td class="bold">Who gave the "Top Agent for Life Insurance 2025" award, and what is the basis of "5k+ families"?</td><td>Whether the claims stay on the site with attribution or come off.</td></tr>
+            <tr><td class="num">5</td><td class="bold">Opening time, and the one email and phone to publish everywhere.</td><td>Schema hours, footer, Business Profile, Facebook.</td></tr>
+            <tr><td class="num">6</td><td class="bold">Real profile URLs for TikTok, Instagram, YouTube, X, LinkedIn.</td><td>Social icons, sameAs, and which icons to remove.</td></tr>
+            <tr><td class="num">7</td><td class="bold">Which tracks she races at, and the current sponsorships.</td><td>The link targets in section 6.</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="band">
+        <div>
+          <div class="eb">Current objective</div>
+          <div class="h">6 to 15 organic inquiries per week</div>
+          <p>Measured in the lead log from launch. Pre-launch items ship on the current Wix site; the route plan, schema and checklist in section 7 go to the redesign build. Progress is reviewed against the section 9 checkpoints at 30, 60 and 90 days.</p>
+        </div>
+        <div class="stats">
+          <div class="st"><div class="n">3 to 5</div><div class="l">Reported today</div></div>
+          <div class="st"><div class="n">11</div><div class="l">Routes at launch</div></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">SEO audit and growth roadmap, prepared for KayRich Insurance Agency, September 16, 2026. Sources: live fetches of kayrichinsure.com pages, robots.txt and sitemaps; Lighthouse 12 mobile lab run; Google Maps and Google Search results; Google Autocomplete; amandaverdesf.com and agents.farmers.com; the Yellow Pages Kaufman insurance listing; account notes. All viewed Sept 16, 2026. No traffic, ranking or search-volume figures were estimated.</div>
+
+  </main>
+</div>
+
+<script>
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){
+  e.target.querySelectorAll('[data-w]').forEach(b=>{b.style.width=b.dataset.w+'%';});
+  io.unobserve(e.target);}});},{threshold:.2});
+document.querySelectorAll('.panel').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

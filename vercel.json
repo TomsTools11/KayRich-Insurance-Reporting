@@ -3,6 +3,9 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/seo-audit", "destination": "/seo-audit-2026-09-16", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/(.*)",
