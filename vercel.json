@@ -4,7 +4,21 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/seo-audit", "destination": "/seo-audit-2026-09-16", "permanent": false }
+    {
+      "source": "/seo-audit",
+      "destination": "/reports/seo-audit-2026-09-16",
+      "permanent": false
+    },
+    {
+      "source": "/seo-audit-2026-09-16",
+      "destination": "/reports/seo-audit-2026-09-16",
+      "permanent": true
+    },
+    {
+      "source": "/campaign-configuration",
+      "destination": "/reports/campaign-configuration-2026-09-15",
+      "permanent": false
+    }
   ],
   "headers": [
     {
