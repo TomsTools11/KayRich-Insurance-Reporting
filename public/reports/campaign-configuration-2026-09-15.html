@@ -152,6 +152,10 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--gray);color:var(-
 .cad .c .s{font-size:11px;color:var(--muted);}
 
 /* ---------- Ad preview ---------- */
+.adlive{display:flex;align-items:center;justify-content:space-between;gap:14px;}
+.adlive .h{font-size:14px;font-weight:800;color:var(--ink);}
+.adlive .s{font-size:12.5px;color:var(--muted);margin-top:2px;}
+.adlive .tag{font-size:11px;padding:5px 11px;}
 .adwrap{background:#F1F2F4;border:1px solid var(--line);border-radius:14px;padding:18px;}
 .adlabel{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:12px;}
 .adcard{background:var(--white);border:1px solid #E6E9EE;border-radius:10px;padding:22px 26px;display:grid;grid-template-columns:232px 1fr;gap:34px;align-items:center;}
@@ -189,6 +193,36 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
 }
 @media(max-width:560px){ .kgrid,.cad{grid-template-columns:1fr;} .exrow .cn{width:88px;}
   .adcard{padding:20px 18px;} .adtop{flex-direction:column;gap:14px;} .adhead{max-width:none;}
+}
+@media(max-width:900px){
+  .shell{grid-template-columns:minmax(0,1fr);}
+  .main,.side{min-width:0;}
+  .hm{grid-template-columns:36px repeat(24,minmax(0,1fr));gap:2px;}
+}
+@media(max-width:560px){
+  .side{padding:24px 18px;}
+  .main{padding:26px 16px 40px;}
+  .panel{padding:18px 16px;}
+  .exec{padding:18px;}
+  .exec p{font-size:14.5px;}
+  .bhead h2{font-size:20px;}
+  .hm .c{height:18px;border-radius:3px;}
+  .hm .dl{font-size:11px;}
+  .hm .hl{visibility:hidden;white-space:nowrap;overflow:visible;}
+  .hm .hl:nth-child(3n+2){visibility:visible;}
+  .hleg{flex-wrap:wrap;gap:8px 16px;}
+  .ctable thead{display:none;}
+  .ctable,.ctable tbody,.ctable tr,.ctable td{display:block;width:auto;}
+  .ctable tr{padding:12px 0;border-bottom:1px solid var(--divider);}
+  .ctable tr:first-child{padding-top:0;}
+  .ctable tr:last-child{border-bottom:none;padding-bottom:0;}
+  .ctable td,.ctable tr:last-child td{padding:0;border:none;}
+  .ctable td.f{width:auto;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px;}
+  .ctable td + td + td{margin-top:7px;}
+  .rule{padding:14px 16px;}
+  .ccard .ch{padding:16px;}
+  .pstep{padding:18px 16px;gap:14px;}
+  .rescard{padding:16px;}
 }
 .back{margin-bottom:26px;display:block;align-self:stretch;font-size:12.5px;font-weight:700;color:#9fbcd6;text-decoration:none;border:1px solid rgba(255,255,255,.16);border-radius:8px;padding:9px 12px;text-align:center;transition:color .15s,border-color .15s;}
 .back:hover{color:#fff;border-color:#3BEECA;text-decoration:none;}
@@ -240,7 +274,7 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
   <main class="main">
 
     <div class="exec">
-      <p>The TX Home campaign is live as of September 16, 2026: <b>$40 per day</b>, delivering Monday to Friday, 9:00am to 5:00pm Central. Coverage is Texas statewide with <b>395 ZIP codes excluded across 11 counties</b>. Two lead-qualification rules are applied: the shopper's current carrier is not Farmers, and the shopper reports one year or more of continuous coverage. Web leads post to AgencyZoom and inbound calls route to the home inbound line. A separate <a href="commercial-campaign-configuration-2026-09-16.html" style="color:var(--blue);font-weight:700;text-decoration:none;border-bottom:1px solid #A8CFF3;">TX Commercial campaign</a> runs alongside it at $40 per day.</p>
+      <p>The TX Home campaign is live as of September 16, 2026: <b>$40 per day</b>, delivering Monday to Friday, 9:00am to 4:00pm Central. Coverage is Texas statewide with <b>395 ZIP codes excluded across 11 counties</b>. Two lead-qualification rules are applied: the shopper's current carrier is not Farmers, and the shopper reports one year or more of continuous coverage. Web leads post to AgencyZoom and inbound calls route to the home inbound line. A separate <a href="commercial-campaign-configuration-2026-09-16.html" style="color:var(--blue);font-weight:700;text-decoration:none;border-bottom:1px solid #A8CFF3;">TX Commercial campaign</a> runs alongside it at $40 per day.</p>
     </div>
 
     <!-- 01 -->
@@ -249,7 +283,7 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
       <div class="kgrid">
         <div class="kc"><div class="v">1</div><div class="k">Campaign</div><div class="d">TX Home &middot; Texas</div></div>
         <div class="kc"><div class="v">$40</div><div class="k">Daily budget</div><div class="d">No monthly cap set</div></div>
-        <div class="kc"><div class="v">40</div><div class="k">Delivery hours per week</div><div class="d">Mon to Fri &middot; 9am to 5pm CT</div></div>
+        <div class="kc"><div class="v">35</div><div class="k">Delivery hours per week</div><div class="d">Mon to Fri &middot; 9am to 4pm CT</div></div>
         <div class="kc"><div class="v">243</div><div class="k">Counties targeted</div><div class="d">Of 254 in Texas</div></div>
         <div class="kc"><div class="v">395</div><div class="k">ZIP codes excluded</div><div class="d">Across 11 counties</div></div>
         <div class="kc"><div class="v">2</div><div class="k">Lead-qualification rules</div><div class="d">Current carrier &middot; continuous coverage</div></div>
@@ -278,16 +312,8 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
         </div>
       </div>
       <div class="panel" style="margin-top:18px;">
-        <table class="ctable">
-          <thead><tr><th>Element</th><th>Value</th><th>Status</th></tr></thead>
-          <tbody>
-            <tr><td class="f">Headline</td><td>Save on Home Insurance with KayRich</td><td><span class="tag mint">Final</span></td></tr>
-            <tr><td class="f">Call to action</td><td>Get Rate</td><td><span class="tag mint">Final</span></td></tr>
-            <tr><td class="f">Creative tier</td><td>Silver tier, agency branding</td><td><span class="tag mint">Final</span></td></tr>
-            <tr><td class="f">Agency logo</td><td>Agency logo, as shown above</td><td><span class="tag mint">Final</span></td></tr>
-          </tbody>
-        </table>
-        <div class="fnote">Copy, layout, logo and call to action are final as shown. A shopper who clicks the ad lands on the agency's branded quote page and completes the home quote form there.</div>
+        <div class="adlive"><div><div class="h">Ad status</div><div class="s">The ad shown above is running on the campaign.</div></div><span class="tag mint">Live</span></div>
+        <div class="fnote">The ad is live as shown. A shopper who clicks the ad lands on the agency's branded quote page and completes the home quote form there.</div>
       </div>
     </section>
 
@@ -365,17 +391,17 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
         <div class="hm">
           <div></div>
           <div class="hl">12a</div><div class="hl">1a</div><div class="hl">2a</div><div class="hl">3a</div><div class="hl">4a</div><div class="hl">5a</div><div class="hl">6a</div><div class="hl">7a</div><div class="hl">8a</div><div class="hl">9a</div><div class="hl">10a</div><div class="hl">11a</div><div class="hl">12p</div><div class="hl">1p</div><div class="hl">2p</div><div class="hl">3p</div><div class="hl">4p</div><div class="hl">5p</div><div class="hl">6p</div><div class="hl">7p</div><div class="hl">8p</div><div class="hl">9p</div><div class="hl">10p</div><div class="hl">11p</div>
-          <div></div>
-          <div class="dl">Mon</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 5pm</div>
-          <div class="dl">Tue</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 5pm</div>
-          <div class="dl">Wed</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 5pm</div>
-          <div class="dl">Thu</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 5pm</div>
-          <div class="dl">Fri</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 5pm</div>
+          <div class="sm"></div>
+          <div class="dl">Mon</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 4pm</div>
+          <div class="dl">Tue</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 4pm</div>
+          <div class="dl">Wed</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 4pm</div>
+          <div class="dl">Thu</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 4pm</div>
+          <div class="dl">Fri</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm">9am to 4pm</div>
           <div class="dl off">Sat</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm off">Paused</div>
           <div class="dl off">Sun</div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="c"></div><div class="sm off">Paused</div>
         </div>
         <div class="hleg"><span><i style="background:#057BE5"></i>100% of bid</span><span><i style="background:#EFF2F7"></i>0%, no traffic</span></div>
-        <div class="fnote">Each cell is one hour. Monday to Friday, the 9am through 4pm blocks are set to 100%, so delivery runs from 9:00am to 5:00pm Central &mdash; 8 hours per day, 40 per week. All other hours are 0%. Saturday and Sunday are inactive. At $40 per day across 21 to 22 weekdays, the monthly ceiling is <b>$840 to $880</b>.</div>
+        <div class="fnote">Each cell is one hour. Monday to Friday, the 9am through 3pm blocks are set to 100%, so delivery runs from 9:00am to 4:00pm Central &mdash; 7 hours per day, 35 per week. All other hours are 0%. Saturday and Sunday are inactive. At $40 per day across 21 to 22 weekdays, the monthly ceiling is <b>$840 to $880</b>.</div>
       </div>
     </section>
 
@@ -399,7 +425,7 @@ img.adlogo{display:block;width:203px;height:auto;margin:0 auto;}
             <tr><td class="f">CRM integration</td><td>AgencyZoom</td><td><span class="tag mint">Connected</span></td></tr>
             <tr><td class="f">Inbound call line</td><td class="mono">985-324-4482</td><td><span class="tag amber">Confirm number</span></td></tr>
             <tr><td class="f">New-lead notifications</td><td>All agency staff</td><td><span class="tag mint">On file</span></td></tr>
-            <tr><td class="f">Ad creative</td><td>Silver tier, agency branding</td><td><span class="tag mint">Final</span></td></tr>
+            <tr><td class="f">Ad creative</td><td>Silver tier, agency branding</td><td><span class="tag mint">Live</span></td></tr>
           </tbody>
         </table>
         <div class="fnote">Every lead and call from this campaign is <b>exclusive to this agency</b>. The prospect responds to the agency's own ad and lands on the agency's own page. Leads are not resold, shared, or delivered to another agency.</div>
