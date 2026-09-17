@@ -175,7 +175,28 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;bac
   .band{grid-template-columns:1fr;}
   .bar-row .lab{width:120px;}
 }
-@media(max-width:560px){ .kgrid,.tl{grid-template-columns:1fr;} .bar-row .val{width:70px;} }
+@media(max-width:900px){
+  .shell,.split,.band{grid-template-columns:minmax(0,1fr);}
+  .main,.side{min-width:0;}
+}
+@media(max-width:560px){
+  .kgrid,.tl{grid-template-columns:1fr;}
+  .side{padding:24px 18px;}
+  .main{padding:26px 16px 40px;}
+  .panel{padding:18px 16px;}
+  .exec{padding:18px;}
+  .band{padding:22px 18px;}
+  .band .stats{flex-wrap:wrap;gap:16px 24px;}
+  .bhead h2{font-size:20px;}
+  .bar-row{gap:10px;}
+  .bar-row .lab{width:96px;font-size:12px;}
+  .bar-row .val{width:64px;}
+  .tree-box,.code-box{padding:16px;}
+  .check-item{padding:12px 14px;}
+  .table-wrap{-webkit-overflow-scrolling:touch;}
+  .table-wrap:has(tr > :nth-child(3)) > table{min-width:600px;}
+  .table-wrap:has(tr > :nth-child(3))::before{content:"Swipe sideways to see the full table \2192";display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:10px;position:sticky;left:0;}
+}
 </style>
 </head>
 <body>
