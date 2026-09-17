@@ -55,7 +55,9 @@ Every page is self-contained apart from its county map: logos are embedded as ba
 
 Section 02 reproduces the GOAL ad preview in HTML/CSS rather than embedding a screenshot, so it stays crisp at any zoom, reflows on phones, and prints cleanly.
 
-The agency logo is embedded as a base64 `data:` URI (`<img class="adlogo" …>`, 203×142 px, cropped from the GOAL ad preview on 2026-09-16). Both campaign reports carry the same logo. Keep it as a `data:` URI rather than a separate file — the CSP allows `img-src 'self' data:` and each report stays self-contained. The Parisienne webfont import is no longer used by the ad card and can be dropped from the `<link>` tag if the reports are rebuilt.
+The ad card's classes use a `cr` (creative) prefix — `.crwrap`, `.crcard`, `.crlogo`, `.crhead` and so on. Do not rename them to `ad*`: EasyList hides `.adwrap`, `.adcard`, `.adhead`, `.adlist` and `.adtop`, so browsers with a built-in or extension ad blocker (Helium, Brave, uBlock Origin) silently remove the whole preview.
+
+The agency logo is embedded as a base64 `data:` URI (`<img class="crlogo" …>`, 203×142 px, cropped from the GOAL ad preview on 2026-09-16). Both campaign reports carry the same logo. Keep it as a `data:` URI rather than a separate file — the CSP allows `img-src 'self' data:` and each report stays self-contained. The Parisienne webfont import is no longer used by the ad card and can be dropped from the `<link>` tag if the reports are rebuilt.
 
 ## Adding future reports
 
