@@ -74,6 +74,10 @@ The agency logo is embedded as a base64 `data:` URI (`<img class="crlogo" …>`,
    <a class="card" href="reports/campaign-performance-2026-10-15.html"><div class="ct">Title</div><div class="cs">Scope &middot; Date</div><div class="cl">Open report &rarr;</div></a>
    ```
 
+## Website redesign demo card
+
+The "Website & SEO" group also has a **Website Redesign Demo** card. It links to an external site, https://kayrich-site-demo.vercel.app, deployed from the [`TomsTools11/kayrich-site-demo`](https://github.com/TomsTools11/kayrich-site-demo) repo. It is the only card that opens in a new tab (`target="_blank" rel="noopener noreferrer"`); report cards stay in the same tab so the "← All Reports" back link works. If the demo's Vercel project is renamed or gets a custom domain, update the card's `href`. No CSP change is needed, because the policy doesn't restrict link navigation.
+
 `vercel.json` redirects the short links to the files under `reports/`: `/seo-audit`, `/seo-audit-2026-09-16`, `/campaign-configuration` (TX Home) and `/commercial-campaign-configuration` (TX Commercial).
 
 ## Access note
