@@ -10,8 +10,12 @@ Static reporting hub for KayRich Insurance Agency, deployed on Vercel.
 public/            # everything in here is deployed and publicly reachable
   index.html       # report hub (served at /), one card per report
   reports/
-    campaign-configuration-2026-09-15.html   # /reports/campaign-configuration-2026-09-15
-    seo-audit-2026-09-16.html                # /reports/seo-audit-2026-09-16
+    campaign-configuration-2026-09-15.html              # /reports/campaign-configuration-2026-09-15 (TX Home)
+    commercial-campaign-configuration-2026-09-16.html   # /reports/commercial-campaign-configuration-2026-09-16 (TX Commercial)
+    seo-audit-2026-09-16.html                           # /reports/seo-audit-2026-09-16
+  assets/
+    tx-map-home.svg                                     # county map for the Home report (243 targeted / 11 excluded)
+    tx-map-commercial.svg                               # county map for the Commercial report (all 254 targeted)
   robots.txt       # asks crawlers not to index the reports
 vercel.json        # Vercel build & header configuration
 ```
@@ -45,19 +49,13 @@ No environment variables are required. There is no build step, no package manage
 
 ## The report itself
 
-Every page is fully self-contained: all imagery is embedded as base64 `data:` URIs and the only inline script is an `IntersectionObserver` that animates the bar widths. The single external dependency is the Inter webfont from Google Fonts, which degrades gracefully to a system font stack if it fails to load.
+Every page is self-contained apart from its county map: logos are embedded as base64 `data:` URIs and the only inline script is an `IntersectionObserver` that animates the bar widths. The two campaign reports load their Texas county map from `public/assets/` as a static `<img src="../assets/tx-map-*.svg">` (the SVG carries its own `<style>`), which keeps each report page small; the map only changes when the geography does. The single external dependency is the Inter webfont from Google Fonts, which degrades gracefully to a system font stack if it fails to load.
 
 ## Ad preview section
 
 Section 02 reproduces the GOAL ad preview in HTML/CSS rather than embedding a screenshot, so it stays crisp at any zoom, reflows on phones, and prints cleanly.
 
-The agency wordmark is rendered in CSS using the Parisienne webfont, because the logo files are still outstanding (item 5 in Items to confirm). When the real logo arrives, replace the whole `<div class="adlogo">` block in `public/reports/campaign-configuration-2026-09-15.html` with one line:
-
-```html
-<img class="adlogo" src="data:image/png;base64,PASTE" alt="KayRich Insurance Agency">
-```
-
-The surrounding `.adcard` grid already sizes that column at 232px, so nothing else needs to change. An inline comment in the markup says the same thing. Keep the logo as a `data:` URI rather than a separate file — the CSP allows `img-src 'self' data:` and the report stays self-contained.
+The agency logo is embedded as a base64 `data:` URI (`<img class="adlogo" …>`, 203×142 px, cropped from the GOAL ad preview on 2026-09-16). Both campaign reports carry the same logo. Keep it as a `data:` URI rather than a separate file — the CSP allows `img-src 'self' data:` and each report stays self-contained. The Parisienne webfont import is no longer used by the ad card and can be dropped from the `<link>` tag if the reports are rebuilt.
 
 ## Adding future reports
 
@@ -74,7 +72,7 @@ The surrounding `.adcard` grid already sizes that column at 232px, so nothing el
    <a class="card" href="reports/campaign-performance-2026-10-15.html"><div class="ct">Title</div><div class="cs">Scope &middot; Date</div><div class="cl">Open report &rarr;</div></a>
    ```
 
-`vercel.json` redirects the older links to the files under `reports/`: `/seo-audit`, `/seo-audit-2026-09-16` and `/campaign-configuration`.
+`vercel.json` redirects the short links to the files under `reports/`: `/seo-audit`, `/seo-audit-2026-09-16`, `/campaign-configuration` (TX Home) and `/commercial-campaign-configuration` (TX Commercial).
 
 ## Access note
 
