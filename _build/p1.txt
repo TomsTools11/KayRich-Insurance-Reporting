@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>KayRich Insurance Agency | Keyword Research &amp; On-Page SEO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+@@CSS@@
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="side">
+<a class="back" href="../index.html">&larr; All Reports</a>
+<img class="logo" src="@@LOGO@@" alt="GOAL">
+<div class="eb">Keyword Research &amp; On-Page SEO</div>
+<h1>KayRich Insurance Agency</h1>
+<div class="who">Prepared for <b>Kayleigh Phillips</b><br>Kaufman, TX<br>kayrichinsure.com<br>Research: September 19, 2026<br>Demo reviewed: September 19, 2026</div>
+<nav>
+<div class="navlab">This report</div>
+<a href="#s1"><span class="dot"></span>Key metrics</a>
+<a href="#s2"><span class="dot"></span>Page-by-page</a>
+<a href="#s3"><span class="dot"></span>Recommendations</a>
+<a href="#s4"><span class="dot"></span>Keyword research</a>
+<a href="#s5"><span class="dot"></span>Recommended pages</a>
+<a href="#s6"><span class="dot"></span>Keyword list</a>
+<a href="#s7"><span class="dot"></span>Before copy is written</a>
+<a href="#s8"><span class="dot"></span>Scope &amp; method</a>
+<div class="navlab">Campaigns</div>
+<a href="campaign-configuration-2026-09-15.html"><span class="dot"></span>Home Campaign Configuration</a>
+<a href="commercial-campaign-configuration-2026-09-16.html"><span class="dot"></span>Commercial Campaign Configuration</a>
+<div class="navlab">Website &amp; SEO</div>
+<a href="seo-keyword-research-2026-09-19.html" class="cur"><span class="dot"></span>Keyword Research &amp; On-Page SEO</a>
+<a href="seo-audit-2026-09-16.html"><span class="dot"></span>Website SEO Audit</a>
+<a href="https://kayrich-site-demo.vercel.app" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Website Redesign Demo &#8599;</a>
+</nav>
+<div class="foot">GOAL Performance Marketing<br>Prepared by Tom Panos, Account Manager</div>
+</aside>
+<main class="main">
+<div class="exec">
+<p>Keyword research on September 19, 2026 produced <b>162 recommended keywords</b> in 17 clusters, mapped to a <b>13-page sitemap</b>. That is the 12 routes already built in the redesign demo plus one proposed Mabank page. Each page has a title tag, H1, and meta description. It starts at <a href="#s4">section 04</a>. <b>150 of the 162</b> phrases came back from Google's autocomplete.</p>
+<p style="margin-top:12px;">Three findings shape the copy. Google returned no suggestions for any Kaufman home, life, or business seed, so the measured local demand sits in <b>car insurance</b> and in <b>Forney and Terrell</b>. Texas questions are among the most repeated phrases ("how much is car insurance in texas per month" came back in <b>7 lookups</b>), and <b>1 of 5</b> line pages in the demo has an FAQ block to answer them. The web search for "race car insurance texas" returned national carriers and no Texas agency.</p>
+<p style="margin-top:12px;">The on-page review of the demo found <b>8 items</b> (3 high, 3 medium, 2 low), listed in <a href="#s3">section 03</a>. Speed, the Business Profile, citations, and measurement are in the <a href="seo-audit-2026-09-16.html">Website SEO Audit</a> of September 16.</p>
+</div>
+<section class="block" id="s1">
+<div class="bhead"><span class="ix">01</span><div><h2>Key metrics</h2><p>On-page elements of the 12 demo pages &middot; read from the demo build on September 19, 2026</p></div></div>
+<div class="kgrid">
+<div class="kc"><div class="v good">12 of 12</div><div class="k">Demo pages with a meta description</div><div class="d">Live site: 2 of 4 indexable URLs (Sept 16 audit)</div></div>
+<div class="kc"><div class="v good">12 of 12</div><div class="k">Demo title tags naming Kaufman, a town, or Texas</div><div class="d">Live site: 0 of 4 &middot; the homepage title is "Better Insurance Rates"</div></div>
+<div class="kc"><div class="v warn">6 of 12</div><div class="k">Meta descriptions over 160 characters</div><div class="d">Longest: Home page at 215 &middot; Google cuts these off</div></div>
+<div class="kc"><div class="v warn">3 of 12</div><div class="k">Title tags over 60 characters</div><div class="d">Race car 66 &middot; Service area 65 &middot; About 71</div></div>
+<div class="kc"><div class="v warn">213&ndash;287</div><div class="k">Words on the five line pages</div><div class="d">The Sept 16 audit set 400 to 700 per line page</div></div>
+<div class="kc"><div class="v bad">1 of 5</div><div class="k">Line pages with an FAQ block</div><div class="d">Life has one &middot; 47 of the 162 keywords are questions</div></div>
+</div>
+</section>
+<section class="block" id="s2">
+<div class="bhead"><span class="ix">02</span><div><h2>Page-by-page</h2><p>On-page elements for each page in the redesign demo</p></div></div>
+<div class="split">
+<div class="panel">
+<div class="pt">On-page items by priority</div>
+<div class="donut-wrap">
+<div class="donut">
+<svg viewBox="0 0 42 42" width="180" height="180">
+<circle cx="21" cy="21" r="15.915" fill="none" stroke="#EFF2F7" stroke-width="6"></circle>
+<circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="#E5484D" stroke-width="6" stroke-dasharray="0 100" data-dash="37.5" transform="rotate(-90 21 21)"></circle>
+<circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="#F0A93B" stroke-width="6" stroke-dasharray="0 100" data-dash="37.5" data-offset="37.5" transform="rotate(-90 21 21)"></circle>
+<circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="#A9B4C2" stroke-width="6" stroke-dasharray="0 100" data-dash="25" data-offset="75" transform="rotate(-90 21 21)"></circle>
+</svg>
+<div class="center"><div class="n">8</div><div class="l">items</div></div>
+</div>
+<div class="legend">
+<div class="li"><span class="sw" style="background:#E5484D"></span><span class="nm">High</span><span class="vl">3</span></div>
+<div class="li"><span class="sw" style="background:#F0A93B"></span><span class="nm">Medium</span><span class="vl">3</span></div>
+<div class="li"><span class="sw" style="background:#A9B4C2"></span><span class="nm">Low</span><span class="vl">2</span></div>
+</div>
+<div class="fnote" style="width:100%;">All 8 are copy and on-page edits to the demo, listed in <a href="#s3">section 03</a>. Every demo page already has one H1, a meta description, and a canonical tag on kayrichinsure.com.</div>
+</div>
+</div>
+<div class="panel tblwrap">
+<table class="ptable">
+<thead><tr><th>Page &amp; title tag</th><th class="c">Title chars</th><th class="c">Meta chars</th><th class="c">Words</th><th class="c">H2s</th><th class="c">FAQ block</th></tr></thead>
+<tbody>
+<tr><td><span class="pg">Home page /</span><span class="ttl">Insurance Agency in Kaufman, TX | KayRich Insurance Agency</span></td><td class="c">58</td><td class="c"><span class="pill amber">215</span></td><td class="c">~639</td><td class="c">8</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">Auto /auto-insurance/</span><span class="ttl">Auto Insurance in Kaufman, TX | KayRich Insurance Agency</span></td><td class="c">56</td><td class="c"><span class="pill amber">165</span></td><td class="c">~250</td><td class="c">2</td><td class="c"><span class="pill red">None</span></td></tr>
+<tr><td><span class="pg">Home insurance /home-insurance/</span><span class="ttl">Home Insurance in Kaufman, TX | KayRich Insurance Agency</span></td><td class="c">56</td><td class="c"><span class="pill amber">165</span></td><td class="c">~213</td><td class="c">2</td><td class="c"><span class="pill red">None</span></td></tr>
+<tr><td><span class="pg">Life /life-insurance/</span><span class="ttl">Life Insurance in Kaufman, TX | KayRich Insurance Agency</span></td><td class="c">56</td><td class="c"><span class="pill amber">170</span></td><td class="c">~287</td><td class="c">2</td><td class="c"><span class="pill green">Yes</span></td></tr>
+<tr><td><span class="pg">Business /business-insurance/</span><span class="ttl">Business Insurance in Kaufman, TX | KayRich Insurance Agency</span></td><td class="c">60</td><td class="c">154</td><td class="c">~217</td><td class="c">2</td><td class="c"><span class="pill red">None</span></td></tr>
+<tr><td><span class="pg">Race car /race-car-insurance/</span><span class="ttl">Race Car Insurance in Texas | KayRich Insurance Agency, Kaufman TX</span></td><td class="c"><span class="pill amber">66</span></td><td class="c"><span class="pill amber">181</span></td><td class="c">~234</td><td class="c">2</td><td class="c"><span class="pill red">None</span></td></tr>
+<tr><td><span class="pg">Service area /service-area/</span><span class="ttl">Service Area: Kaufman County Insurance | KayRich Insurance Agency</span></td><td class="c"><span class="pill amber">65</span></td><td class="c">146</td><td class="c">~174</td><td class="c">2</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">Forney /service-area/forney/</span><span class="ttl">Insurance Agency in Forney, TX | KayRich Insurance Agency</span></td><td class="c">57</td><td class="c">129</td><td class="c">~150</td><td class="c">1</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">Terrell /service-area/terrell/</span><span class="ttl">Insurance Agency in Terrell, TX | KayRich Insurance Agency</span></td><td class="c">58</td><td class="c">140</td><td class="c">~173</td><td class="c">1</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">About /about/</span><span class="ttl">About Kayleigh Phillips-Richards | KayRich Insurance Agency, Kaufman TX</span></td><td class="c"><span class="pill amber">71</span></td><td class="c"><span class="pill amber">179</span></td><td class="c">~205</td><td class="c">2</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">Reviews /reviews/</span><span class="ttl">Reviews | KayRich Insurance Agency, Kaufman TX</span></td><td class="c">46</td><td class="c">150</td><td class="c">~206</td><td class="c">0</td><td class="c">&ndash;</td></tr>
+<tr><td><span class="pg">Contact / quote /contact/</span><span class="ttl">Contact KayRich Insurance Agency | Kaufman, TX</span></td><td class="c">46</td><td class="c">117</td><td class="c">~123</td><td class="c">4</td><td class="c">&ndash;</td></tr>
+</tbody>
+</table>
+<div class="fnote" style="margin-top:14px;">Words = text inside the page's main element, excluding the shared nav, footer, and quote band. Amber = over 60 characters for a title or 160 for a meta description. FAQ block is scored on the five line pages only. The live Wix site has 4 indexable URLs (home, a booking list, a booking detail page, and an empty pricing page); their on-page elements are in the <a href="seo-audit-2026-09-16.html#s3">Sept 16 audit</a>.</div>
+</div>
+</div>
+</section>
+<section class="block" id="s3">
+<div class="bhead"><span class="ix">03</span><div><h2>Recommendations</h2><p>On-page and copy items for the demo, ordered by priority &middot; effort S = under 1 hour, M = a few hours, L = a day or more</p></div></div>
+<p class="kwlead">Each item comes from comparing the demo's pages with what Google suggests. None changes the design or the route plan except item 6, which is marked for sign-off. Drafted title tags, H1s, and meta descriptions are in <a href="#s5">section 05</a>.</p>
+<div class="plan">
+<div class="pstep"><div class="num">1</div><div>
+<div class="meta"><span class="pill red">High</span><span class="pill gray">Effort S</span></div>
+<div class="h">Settle the carrier wording before launch</div>
+<div class="b">Remove "Independent-minded" from the homepage meta description until the carrier relationship is confirmed. If the agency is a Farmers agency, add Farmers to the About page and the homepage intro under Farmers brand rules. The draft meta description in <a href="#s5">section 05</a> avoids both words.</div>
+<div class="ev">Evidence: the owner email on the live site is a farmersagent.com address; the demo never says "Farmers"; its homepage meta description opens with "Independent-minded"; one of the two awards it cites is from Southern Farm Bureau Life. <b>9 keywords</b> on the list depend on the answer.</div>
+</div></div>
+<div class="pstep"><div class="num">2</div><div>
+<div class="meta"><span class="pill red">High</span><span class="pill gray">Effort M</span></div>
+<div class="h">Add a Texas FAQ block to the Auto, Home insurance, Business, and Race car pages</div>
+<div class="b">Use the question keywords as the FAQ headings, word for word, and answer each in two to four sentences. Cost questions get rating factors and a Texas Department of Insurance citation, not an average. This also lifts each page toward the 400 to 700 words the Sept 16 audit set.</div>
+<div class="ev">Evidence: question keywords mapped: Auto <b>16</b>, Home insurance <b>16</b>, Business <b>4</b>, Race car <b>6</b>. Only the Life page has an FAQ today, and its four questions already match phrases Google suggests. Line pages carry <b>213&ndash;287 words</b>.</div>
+</div></div>
+<div class="pstep"><div class="num">3</div><div>
+<div class="meta"><span class="pill red">High</span><span class="pill gray">Effort S</span></div>
+<div class="h">Lead the Auto page with "car insurance"</div>
+<div class="b">Change the title tag to "Car Insurance in Kaufman, TX | KayRich Insurance Agency" and the H1 to "Car and truck insurance in Kaufman, TX." Keep the URL /auto-insurance/ and use "auto insurance" in an H2 and the intro.</div>
+<div class="ev">Evidence: "car insurance kaufman tx" came back in <b>4 lookups</b>; "auto insurance kaufman tx" in <b>1</b>. "car insurance" also came back for Forney (4 lookups), Terrell (3), and Mabank (2). "auto insurance" came back once each for Forney and Terrell.</div>
+</div></div>
+<div class="pstep"><div class="num">4</div><div>
+<div class="meta"><span class="pill amber">Medium</span><span class="pill gray">Effort S</span></div>
+<div class="h">Shorten 6 meta descriptions and 3 title tags</div>
+<div class="b">Keep meta descriptions at 160 characters or fewer and titles at 60 or fewer so Google shows them whole. Drafts for every page are in <a href="#s5">section 05</a>. Most of the saving comes from listing four towns instead of six.</div>
+<div class="ev">Evidence: meta descriptions over 160: Home page 215, Race car 181, About 179, Life 170, Auto 165, Home insurance 165. Titles over 60: About 71, Race car 66, Service area 65.</div>
+</div></div>
+<div class="pstep"><div class="num">5</div><div>
+<div class="meta"><span class="pill amber">Medium</span><span class="pill gray">Effort M</span></div>
+<div class="h">Give the Forney and Terrell pages headings that name a line</div>
+<div class="b">Add "Car insurance in Forney" and "Home insurance in Forney" sections to the Forney page, and "Car insurance in Terrell" to the Terrell page. Two or three sentences each, linked to the line page. The scenario blocks already on the pages stay.</div>
+<div class="ev">Evidence: Forney holds <b>13 keywords</b>, 11 of them Strong, and is the only town where Google suggests home insurance. The demo Forney page is about <b>150 words</b> and no heading names a line. "insurance companies in terrell texas" came back in <b>9 lookups</b>, the most of any phrase.</div>
+</div></div>
+<div class="pstep"><div class="num">6</div><div>
+<div class="meta"><span class="pill amber">Medium</span><span class="pill gray">Effort M</span></div>
+<div class="h">Add a Mabank page, once the agency confirms it writes there</div>
+<div class="b">Build /service-area/mabank/ on the Forney and Terrell template. Kemp and Crandall stay as blocks on the service-area page. This adds a route to the approved plan, so it needs sign-off first.</div>
+<div class="ev">Evidence: Google suggests "insurance mabank tx", "car insurance mabank tx", and "car insurance gun barrel city tx". Kemp returned only named agencies. Crandall returned one Allstate phrase.</div>
+</div></div>
+<div class="pstep"><div class="num">7</div><div>
+<div class="meta"><span class="pill gray">Low</span><span class="pill gray">Effort S</span></div>
+<div class="h">Use the full question wording in the Life FAQ</div>
+<div class="b">Change "How much do I need?" to "How much life insurance do I need?" and "Do I need a medical exam?" to a heading that includes "life insurance". The answers stay as written.</div>
+<div class="ev">Evidence: Google suggests "how much life insurance do i need", "life insurance no medical exam", "is life insurance through work enough", and "life insurance for children". The demo headings drop the words "life insurance".</div>
+</div></div>
+<div class="pstep"><div class="num">8</div><div>
+<div class="meta"><span class="pill gray">Low</span><span class="pill gray">Effort S</span></div>
+<div class="h">Match the award and the owner name across the live site and the demo</div>
+<div class="b">Pick the name the owner publishes under and the awards that can be attributed, then use them on the About and Life pages and in schema.</div>
+<div class="ev">Evidence: live site: "Named Top Agent for Life Insurance in 2025" and "Kayleigh Richards". Demo: "2023 President's Council" and "Kayleigh Phillips-Richards". The Life and About meta descriptions both cite the 2023 recognition.</div>
+</div></div>
+</div>
+</section>
+<!-- KW:START (sections 04-07 are generated from the keyword research workbook) -->
+<section class="block" id="s4">
+<div class="bhead"><span class="ix">04</span><div><h2>Keyword research</h2><p>162 recommended keywords &middot; Google autocomplete, September 19, 2026</p></div></div>
+<p class="kwlead">This list supports the redesign copy. <b>150 of the 162 phrases</b> came back from Google's autocomplete, which means people type them often enough for Google to suggest them. The other 12 are Kaufman city + line phrases, brand names, and 3 others kept for page fit. The demand signal counts how many separate lookups returned a phrase. It is not search volume. Kaufman County towns are small: <b>49 of the 224</b> seed lookups returned nothing at all.</p>
+<div class="kgrid">
+<div class="kc"><div class="v">162</div><div class="k">Keywords recommended</div><div class="d">Each assigned to one page</div></div>
+<div class="kc"><div class="v">13</div><div class="k">Pages in the recommended sitemap</div><div class="d">12 built in the demo &middot; 1 proposed (Mabank)</div></div>
+<div class="kc"><div class="v">17</div><div class="k">Keyword clusters</div><div class="d">Each cluster belongs to one page</div></div>
+<div class="kc"><div class="v">51</div><div class="k">Strong demand signal</div><div class="d">Suggested in 2 or more separate lookups</div></div>
+<div class="kc"><div class="v">99</div><div class="k">Present</div><div class="d">Suggested in 1 lookup</div></div>
+<div class="kc"><div class="v">12</div><div class="k">Not seen in autocomplete</div><div class="d">Kept only where the page needs the phrase</div></div>
+</div>
+<div class="fpanel kgap">
+<div class="cpt">Keywords by recommended page</div>
+<div class="csub">Each bar splits a page's keywords by demand signal</div>
+<div class="clegend"><span><i class="c-s3"></i>Strong (2+ lookups)</span><span><i class="c-s2"></i>Present (1 lookup)</span><span><i class="c-s1"></i>Not seen in autocomplete</span></div>
+<div class="prow"><div class="lab">Home page</div><div class="trk"><div class="sbar" data-w="42.9" role="img" aria-label="Home page: 3 Strong, 8 Present, 1 Not seen in autocomplete"><span class="c-s3" style="flex:3" data-tip="Home page: 3 Strong of 12">3</span><span class="c-s2" style="flex:8" data-tip="Home page: 8 Present of 12">8</span><span class="c-s1" style="flex:1" data-tip="Home page: 1 Not seen in autocomplete of 12">1</span></div></div><div class="pct">12</div></div>
+<div class="prow"><div class="lab">Auto</div><div class="trk"><div class="sbar" data-w="100.0" role="img" aria-label="Auto: 10 Strong, 18 Present"><span class="c-s3" style="flex:10" data-tip="Auto: 10 Strong of 28">10</span><span class="c-s2" style="flex:18" data-tip="Auto: 18 Present of 28">18</span></div></div><div class="pct">28</div></div>
+<div class="prow"><div class="lab">Home insurance</div><div class="trk"><div class="sbar" data-w="100.0" role="img" aria-label="Home insurance: 7 Strong, 19 Present, 2 Not seen in autocomplete"><span class="c-s3" style="flex:7" data-tip="Home insurance: 7 Strong of 28">7</span><span class="c-s2" style="flex:19" data-tip="Home insurance: 19 Present of 28">19</span><span class="c-s1" style="flex:2" data-tip="Home insurance: 2 Not seen in autocomplete of 28">2</span></div></div><div class="pct">28</div></div>
