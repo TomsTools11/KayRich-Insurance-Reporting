@@ -1,0 +1,15 @@
+<div class="row"><b>Pages reviewed</b><span>The 12 page files in the redesign demo (kayrich-site-demo.vercel.app), read from the demo build on September 19, 2026: title tag, meta description, headings, word count, and FAQ blocks. The live homepage and /book-online were fetched the same day to confirm their title tags and H1s are unchanged since the September 16 audit.</span></div>
+<div class="row"><b>Keyword research</b><span>224 seed phrases covering the lines on the live site and the demo, the six towns the demo names plus nearby towns, Farmers brand terms, brand names, and Texas topics (hail, wind, roof, foundation, flood, tornado, state minimums, uninsured motorist, PIP, SR-22, workers comp). Each seed was run through Google's public autocomplete (US, English) on September 19, 2026. Five head terms were also searched to see who ranks today.</span></div>
+<div class="row"><b>Demand signal</b><span>Strong = Google suggested the phrase in 2 or more separate lookups. Present = 1 lookup. Not in autocomplete = no suggestion came back, and the phrase stays only where the page needs it. The keyword list names the seed lookups that returned each phrase, and the workbook's Autocomplete log tab holds every raw result.</span></div>
+<div class="row"><b>No search volume</b><span>No keyword-volume tool (Google Keyword Planner, Ahrefs, Semrush) was connected. The demand signal shows that people search a phrase. It does not rank phrases by volume. Run the primary keywords through Keyword Planner before final sign-off if volumes are needed.</span></div>
+<div class="row"><b>Not included</b><span>Google Search Console and Google Analytics data (no access), so current rankings, impressions, and search traffic are unknown. No traffic or lead estimate is attached to any keyword.</span></div>
+<div class="row"><b>How this fits the Sept 16 audit</b><span>The audit recommended 36 terms from a first autocomplete pass and set the route plan. This research reran the pass with 224 seeds, kept the routes, and extends the list to 162 keywords with a role and a placement for each. Where the two differ, this report is the newer one.</span></div>
+<div class="row"><b>Technical audit</b><span>Speed, Lighthouse scores, the Business Profile, citations, links, and measurement are covered in the <a href="seo-audit-2026-09-16.html">Website SEO Audit</a>.</span></div>
+</div>
+<div class="foot-note">Demo findings reflect the demo build as of September 19, 2026 (kayrich-site-demo, commit 022b097). Keyword research was run September 19, 2026. Workbook: KayRich Insurance - Keyword Research 2026-09.xlsx.</div>
+</section>
+</main>
+</div>
+@@SCRIPT@@
+</body>
+</html>
