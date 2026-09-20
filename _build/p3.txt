@@ -1,0 +1,194 @@
+<dt>Keyword clusters</dt><dd><span class="cl">Life insurance</span></dd>
+<dt>Primary keyword</dt><dd><b>life insurance kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>term life insurance texas; whole life insurance texas; how much life insurance do i need</dd>
+<dt>Title tag</dt><dd>Life Insurance in Kaufman, TX | KayRich Insurance Agency<span class="len">56 characters</span></dd>
+<dt>H1</dt><dd>Life insurance in Kaufman, TX.</dd>
+<dt>Meta description</dt><dd>Term and whole life insurance in Kaufman, TX, reviewed with you by agency owner Kayleigh Phillips-Richards. Call (214) 773-3938.<span class="len">128 characters</span></dd>
+<dt>H2 sections</dt><dd>There are two products and a lot of noise around them &middot; Term vs whole life &middot; What people ask on the first call (FAQ, already built)</dd>
+<dt>Notes</dt><dd>The only line page that already has an FAQ, and its four questions match phrases Google suggests. The demo meta description is 170 characters and cites a 2023 recognition; the live site cites a 2025 award. The draft leaves the award out until it is confirmed (section 07).</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">5</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (add FAQ)</span><span class="pill gray">21 keywords</span></div>
+<div class="h">Business<span class="url">/business-insurance/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Business insurance</span><span class="cl">Commercial auto and trucking</span></dd>
+<dt>Primary keyword</dt><dd><b>business insurance kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>commercial insurance kaufman tx; small business insurance texas; commercial auto insurance texas</dd>
+<dt>Title tag</dt><dd>Business Insurance in Kaufman, TX | KayRich Insurance Agency<span class="len">60 characters</span></dd>
+<dt>H1</dt><dd>Business insurance in Kaufman, TX.</dd>
+<dt>Meta description</dt><dd>Business insurance in Kaufman, TX. General liability, commercial auto, tools and property for contractors, shops and small operators. Call (214) 773-3938.<span class="len">154 characters</span></dd>
+<dt>H2 sections</dt><dd>Start with liability &middot; Commercial auto and work trucks (expand) &middot; Who we write around here &middot; FAQ (new): cost factors, workers comp in Texas, what a business owners policy is</dd>
+<dt>Notes</dt><dd>Title, H1 and meta description stay as built. A GOAL commercial campaign is live for this account, so this page is the landing context for those leads.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">6</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit title, H1, add FAQ)</span><span class="pill gray">23 keywords</span></div>
+<div class="h">Race car<span class="url">/race-car-insurance/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Race car insurance</span></dd>
+<dt>Primary keyword</dt><dd><b>race car insurance</b></dd>
+<dt>Secondary keywords</dt><dd>race car insurance texas; race car insurance cost; can you insure a race car; drag racing insurance; race car trailer insurance</dd>
+<dt>Title tag</dt><dd>Race Car Insurance in Texas | KayRich Insurance Agency<span class="len">54 characters</span></dd>
+<dt>H1</dt><dd>Race car, trailer and motorhome insurance in Texas.</dd>
+<dt>Meta description</dt><dd>Race car insurance for drag, circle track and road course. On-track and off-track physical damage, trailers, motorhomes, parts and tools. (214) 773-3938.<span class="len">153 characters</span></dd>
+<dt>H2 sections</dt><dd>What gets covered, and where the line sits &middot; Drag racing &middot; Circle track &middot; Bring four things and the quote takes one call &middot; FAQ (new): can you insure a race car, what drives the cost, does car insurance cover the track</dd>
+<dt>Notes</dt><dd>The demo title is 66 characters and the meta description is 181. The H1 adds &#x27;in Texas&#x27; because no local competitor holds the Texas phrase.</dd>
+<dt>Ranking now</dt><dd>Hagerty (consumer and agent sites), K&amp;K Insurance (two pages), Texas Department of Insurance auto guide, Liberty Mutual, Allstate. No Texas agency appears (search &#x27;race car insurance texas&#x27;).</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">7</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit title)</span><span class="pill gray">3 keywords</span></div>
+<div class="h">Service area<span class="url">/service-area/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Kaufman County service area</span></dd>
+<dt>Primary keyword</dt><dd><b>kaufman county insurance</b></dd>
+<dt>Secondary keywords</dt><dd>insurance kemp tx; insurance crandall tx</dd>
+<dt>Title tag</dt><dd>Kaufman County Insurance | KayRich Insurance Agency<span class="len">51 characters</span></dd>
+<dt>H1</dt><dd>Insurance across Kaufman County and the lake.</dd>
+<dt>Meta description</dt><dd>KayRich Insurance Agency serves Kaufman, Forney, Terrell, Crandall, Kemp and Mabank from 107 N Jackson St, Kaufman, TX 75142. Call (214) 773-3938.<span class="len">146 characters</span></dd>
+<dt>H2 sections</dt><dd>The office &middot; Six towns we know by name</dd>
+<dt>Notes</dt><dd>The demo title is 65 characters. H1 and meta description stay as built. Kemp and Crandall stay as blocks on this page.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">8</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (add sections)</span><span class="pill gray">13 keywords</span></div>
+<div class="h">Forney<span class="url">/service-area/forney/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Forney insurance</span></dd>
+<dt>Primary keyword</dt><dd><b>insurance forney tx</b></dd>
+<dt>Secondary keywords</dt><dd>insurance agency forney tx; car insurance forney tx; home insurance forney tx; insurance agents in forney tx</dd>
+<dt>Title tag</dt><dd>Insurance Agency in Forney, TX | KayRich Insurance Agency<span class="len">57 characters</span></dd>
+<dt>H1</dt><dd>Insurance for Forney, TX.</dd>
+<dt>Meta description</dt><dd>Car, home, life and business insurance for Forney, TX, written from our Kaufman office at 107 N Jackson St. Call (214) 773-3938.<span class="len">128 characters</span></dd>
+<dt>H2 sections</dt><dd>What Forney households usually call about &middot; Car insurance in Forney (new) &middot; Home insurance in Forney (new) &middot; Get a quote</dd>
+<dt>Notes</dt><dd>Forney returned more insurance phrases than any other town, and it is the only town where Google suggests home insurance. The demo page is about 150 words with no heading that names a line.</dd>
+<dt>Ranking now</dt><dd>See Home insurance for &#x27;home insurance forney tx&#x27;. Two Forney agencies rank with their own sites (forneyinsurance.com, forneygroup.agency).</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">9</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (add section)</span><span class="pill gray">8 keywords</span></div>
+<div class="h">Terrell<span class="url">/service-area/terrell/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Terrell insurance</span></dd>
+<dt>Primary keyword</dt><dd><b>insurance terrell tx</b></dd>
+<dt>Secondary keywords</dt><dd>insurance companies in terrell texas; car insurance terrell tx</dd>
+<dt>Title tag</dt><dd>Insurance Agency in Terrell, TX | KayRich Insurance Agency<span class="len">58 characters</span></dd>
+<dt>H1</dt><dd>Insurance for Terrell, TX.</dd>
+<dt>Meta description</dt><dd>Auto, home, life, business and race car insurance for Terrell, TX, written from our Kaufman office at 107 N Jackson St. Call (214) 773-3938.<span class="len">140 characters</span></dd>
+<dt>H2 sections</dt><dd>Three things worth reviewing before renewal &middot; Car insurance in Terrell (new) &middot; Get a quote</dd>
+<dt>Notes</dt><dd>Title, H1 and meta description stay as built.</dd>
+<dt>Ranking now</dt><dd>Progressive agent locator, Germania, State Farm locator, Casi Akins Farmers. The rest of the page is agencies named Terrell in other cities (search &#x27;insurance terrell tx agency&#x27;).</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">10</div><div class="pgm">
+<div class="meta"><span class="pill blue">New page (confirm first)</span><span class="pill gray">3 keywords</span></div>
+<div class="h">Mabank<span class="url">/service-area/mabank/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Mabank and Cedar Creek Lake</span></dd>
+<dt>Primary keyword</dt><dd><b>insurance mabank tx</b></dd>
+<dt>Secondary keywords</dt><dd>car insurance mabank tx; car insurance gun barrel city tx</dd>
+<dt>Title tag</dt><dd>Insurance Agency in Mabank, TX | KayRich Insurance Agency<span class="len">57 characters</span></dd>
+<dt>H1</dt><dd>Insurance for Mabank, TX.</dd>
+<dt>Meta description</dt><dd>Auto, home, life and business insurance for Mabank and Cedar Creek Lake, written from our Kaufman office at 107 N Jackson St. Call (214) 773-3938.<span class="len">146 characters</span></dd>
+<dt>H2 sections</dt><dd>What Mabank and lake households call about &middot; Car insurance in Mabank &middot; Get a quote</dd>
+<dt>Notes</dt><dd><span class="pill amber">Flag</span> Not in the demo. Mabank is the only other town where Google suggests a line phrase (&#x27;car insurance mabank tx&#x27;). Build it on the Forney / Terrell template once the agency confirms it writes there.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">11</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit title, meta)</span><span class="pill gray">3 keywords</span></div>
+<div class="h">About<span class="url">/about/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Brand</span></dd>
+<dt>Primary keyword</dt><dd><b>kayrich insurance</b></dd>
+<dt>Secondary keywords</dt><dd>kayrich insurance agency; kayleigh richards insurance</dd>
+<dt>Title tag</dt><dd>About Kayleigh Phillips-Richards | KayRich Insurance Agency<span class="len">59 characters</span></dd>
+<dt>H1</dt><dd>Kayleigh Phillips-Richards</dd>
+<dt>Meta description</dt><dd>KayRich Insurance Agency is run by Kayleigh Phillips-Richards from 107 N Jackson St in Kaufman, TX. Meet the agency. Call (214) 773-3938.<span class="len">137 characters</span></dd>
+<dt>H2 sections</dt><dd>Recognised in 2023 &middot; How the agency works, stated plainly &middot; The team (new, if agents are to be named)</dd>
+<dt>Notes</dt><dd>The demo title is 71 characters and the meta description is 179. The draft meta leaves the award out until it is confirmed.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">12</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo</span><span class="pill gray">2 keywords</span></div>
+<div class="h">Reviews<span class="url">/reviews/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Reviews</span></dd>
+<dt>Primary keyword</dt><dd><b>best insurance agency kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>farmers insurance agents near me reviews</dd>
+<dt>Title tag</dt><dd>Reviews | KayRich Insurance Agency, Kaufman TX<span class="len">46 characters</span></dd>
+<dt>H1</dt><dd>What people say after the first phone call.</dd>
+<dt>Meta description</dt><dd>What clients across Kaufman, Forney, Terrell, Crandall, Kemp and Mabank say about working with Kayleigh Phillips-Richards at KayRich Insurance Agency.<span class="len">150 characters</span></dd>
+<dt>H2 sections</dt><dd>No H2s today &middot; Leave a review (new)</dd>
+<dt>Notes</dt><dd>Stays as built. This page is won by review count (5 today against 321 for the top local competitor, Sept 16 audit), not by keywords.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">13</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit title)</span><span class="pill gray">6 keywords</span></div>
+<div class="h">Contact / quote<span class="url">/contact/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Quote / contact</span></dd>
+<dt>Primary keyword</dt><dd><b>get an insurance quote</b></dd>
+<dt>Secondary keywords</dt><dd>insurance quote near me; home and auto insurance quotes texas</dd>
+<dt>Title tag</dt><dd>Get an Insurance Quote | KayRich Insurance Agency, Kaufman<span class="len">58 characters</span></dd>
+<dt>H1</dt><dd>Call the office, or send five fields.</dd>
+<dt>Meta description</dt><dd>Call (214) 773-3938 or request a quote in five fields. KayRich Insurance Agency, 107 N Jackson St, Kaufman, TX 75142.<span class="len">117 characters</span></dd>
+<dt>H2 sections</dt><dd>The office &middot; Hours &middot; Email &middot; If you are calling about a claim</dd>
+<dt>Notes</dt><dd>H1 and meta description stay as built. The title gains &#x27;Get an Insurance Quote&#x27; because every page&#x27;s CTA lands here.</dd>
+</dl>
+</div></div>
+</div>
+<div class="fnote">"Ranking now" comes from a web search on September 19, 2026. Five head terms were searched, covering 6 pages. Results vary by location and are not a rank tracker.</div>
+</section>
+<section class="block" id="s6">
+<div class="bhead"><span class="ix">06</span><div><h2>Keyword list</h2><p>All 162 keywords, grouped by the page they belong on</p></div></div>
+<div class="panel tblwrap">
+<div class="kwfilter">
+<input id="kwq" type="search" placeholder="Search keywords, clusters, seeds, notes" aria-label="Search the keyword list">
+<select id="kwp" aria-label="Filter by page"><option value="">All pages</option><option value="p0">Home page</option><option value="p1">Auto</option><option value="p2">Home insurance</option><option value="p3">Life</option><option value="p4">Business</option><option value="p5">Race car</option><option value="p6">Service area</option><option value="p7">Forney</option><option value="p8">Terrell</option><option value="p9">Mabank</option><option value="p10">About</option><option value="p11">Reviews</option><option value="p12">Contact / quote</option></select>
+<select id="kws" aria-label="Filter by demand signal"><option value="">All signals</option><option value="s3">Strong</option><option value="s2">Present</option><option value="s1">Not seen</option></select>
+<span class="cnt" id="kwn">162 of 162 keywords</span>
+</div>
+<table class="ktable" id="kwt">
+<thead><tr><th>#</th><th>Keyword &amp; cluster</th><th>Role &amp; where to use it</th><th>Intent</th><th class="c">Lookups</th><th>Signal</th><th>Seen in autocomplete for &middot; notes &amp; flags</th></tr></thead>
+<tbody>
+@@ROWS@@
+</tbody>
+</table>
+<div class="fnote" style="margin-top:14px;">Lookups = the number of separate autocomplete lookups that returned the phrase. Strong = 2 or more, Present = 1, Not seen = 0. A flag marks a keyword to confirm with the agency before it goes into copy. 28 keywords carry one. Tip: search "flag" to see them together.</div>
+</div>
+</section>
+<section class="block" id="s7">
+<div class="bhead"><span class="ix">07</span><div><h2>Before copy is written</h2><p>Six items for the agency to confirm, and the search patterns left off the list</p></div></div>
+<div class="checks">
+<div class="chk"><div class="ic q">?</div><div><div class="t">Carrier relationship</div><div class="s">The owner email on the live site is a farmersagent.com address. The demo never says Farmers, its homepage meta description says &#x27;Independent-minded&#x27;, and one of the two awards it cites is from Southern Farm Bureau Life. Confirm captive, independent or both. It decides the &#x27;farmers&#x27;, &#x27;independent&#x27; and &#x27;broker&#x27; wording on 9 keywords.</div></div></div>
+<div class="chk"><div class="ic q">?</div><div><div class="t">Lines offered</div><div class="s">Renters, landlord, mobile home, barndominium, flood, motorcycle, RV, SR-22 filings, final expense, trucking (box truck, hot shot, dump truck), track day / HPDE.</div></div></div>
+<div class="chk"><div class="ic q">?</div><div><div class="t">Towns written</div><div class="s">Mabank and Gun Barrel City before the Mabank page is built. Kemp and Crandall stay on the service-area page.</div></div></div>
+<div class="chk"><div class="ic q">?</div><div><div class="t">Texas facts</div><div class="s">State minimum auto limits, uninsured motorist and PIP rules, no-fault status, hail claim deadlines, workers comp rules. Verify with the Texas Department of Insurance before publishing.</div></div></div>
+<div class="chk"><div class="ic q">?</div><div><div class="t">Award and owner name</div><div class="s">Live site: &#x27;Named Top Agent for Life Insurance in 2025&#x27; and &#x27;Kayleigh Richards&#x27;. Demo: &#x27;2023 President&#x27;s Council&#x27; and &#x27;Kayleigh Phillips-Richards&#x27;. Pick one name and the awards that can be attributed.</div></div></div>
+<div class="chk"><div class="ic q">?</div><div><div class="t">Racing partner</div><div class="s">How Laris Motorsports Insurance is named on the race car page, and which classes (drag, circle track, sprint, road course) the program writes.</div></div></div>
+</div>
+<div class="panel tblwrap kgap">
+<div class="cpt">Left off the list</div>
+<div class="csub">Patterns that showed up in the research and were excluded on purpose</div>
+<table class="ptable">
+<thead><tr><th style="width:22%">Pattern</th><th style="width:40%">Examples from the research</th><th>Why it was left off</th></tr></thead>
+<tbody>
+<tr><td><span class="pg">Competitor brand terms</span></td><td>progressive / fred loya / allstate / state farm / germania / goosehead insurance kaufman tx, forney tx, terrell tx; farm bureau insurance kaufman tx; texas farm bureau insurance kaufman tx; kaufman county farm bureau insurance</td><td>Searchers want that company. &#x27;Farm bureau&#x27; phrases sit next to &#x27;farmers&#x27; in Google&#x27;s suggestions but are a different carrier.</td></tr>
+<tr><td><span class="pg">Named local competitor agencies</span></td><td>cardozas, alianza, browning, hill, mooney, grooms, hernandez, payne, folsom, merritt, mcafee, moseley insurance; forney group insurance agency</td><td>Navigational for other agencies.</td></tr>
+<tr><td><span class="pg">&#x27;Cheap&#x27; / &#x27;cheapest&#x27; price terms</span></td><td>cheap car insurance texas, cheapest car insurance in texas, homeowners insurance cheapest in texas, cheapest home and auto insurance in texas</td><td>Real demand (&#x27;homeowners insurance cheapest in texas&#x27; came back in 5 lookups), but a price promise the agency cannot guarantee. Answer the intent with a discounts and bundling section.</td></tr>
+<tr><td><span class="pg">Farmers customer-service queries</span></td><td>farmers insurance quote lookup, quote retrieval, farmers life insurance login, policy lookup, customer service phone number</td><td>Existing Farmers customers who want corporate service.</td></tr>
+<tr><td><span class="pg">Careers and licensing</span></td><td>how to become an insurance agent in texas, insurance agent near me hiring, life insurance texas exam, life insurance texas license, farmers insurance job description</td><td>Recruiting and licensing intent, not buyers.</td></tr>
+<tr><td><span class="pg">Health insurance</span></td><td>insurance agent near me health, small business health insurance texas, how much is health insurance in texas</td><td>Not a line the site lists. Include only if the agency sells health.</td></tr>
+<tr><td><span class="pg">Age-specific and forum price queries</span></td><td>how much is car insurance in texas for a 17 year old (and 16, 18, 19, 20, 21, 25), car insurance texas reddit, homeowners insurance texas reddit</td><td>One FAQ answer on rating factors covers these. No page or heading per age.</td></tr>
+<tr><td><span class="pg">Other countries</span></td><td>race car insurance canada, uk, australia, nz, south africa; track day insurance uk; hpde insurance ontario</td><td>Outside the United States.</td></tr>
+<tr><td><span class="pg">Other cities</span></td><td>insurance mesquite tx, rockwall tx, canton tx, athens tx, seagoville tx; renters insurance houston / dallas / austin; kaufman insurance peru illinois; terrell insurance diboll</td><td>Outside the six towns the site names, or agencies that share the name Kaufman or Terrell in other states.</td></tr>
+<tr><td><span class="pg">Event and venue insurance</span></td><td>drag strip insurance, drag racing event insurance, drag racing track insurance, motorsports sponsor liability</td><td>Coverage for track owners and promoters, not racers.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- KW:END -->
+<section class="block" id="s8" style="margin-bottom:0;">
+<div class="bhead"><span class="ix">08</span><div><h2>Scope &amp; method</h2><p>What this report covers</p></div></div>
+<div class="limits">
