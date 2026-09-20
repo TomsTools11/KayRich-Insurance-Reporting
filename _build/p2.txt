@@ -1,0 +1,132 @@
+<div class="prow"><div class="lab">Life</div><div class="trk"><div class="sbar" data-w="42.9" role="img" aria-label="Life: 11 Present, 1 Not seen in autocomplete"><span class="c-s2" style="flex:11" data-tip="Life: 11 Present of 12">11</span><span class="c-s1" style="flex:1" data-tip="Life: 1 Not seen in autocomplete of 12">1</span></div></div><div class="pct">12</div></div>
+<div class="prow"><div class="lab">Business</div><div class="trk"><div class="sbar" data-w="75.0" role="img" aria-label="Business: 4 Strong, 15 Present, 2 Not seen in autocomplete"><span class="c-s3" style="flex:4" data-tip="Business: 4 Strong of 21">4</span><span class="c-s2" style="flex:15" data-tip="Business: 15 Present of 21">15</span><span class="c-s1" style="flex:2" data-tip="Business: 2 Not seen in autocomplete of 21">2</span></div></div><div class="pct">21</div></div>
+<div class="prow"><div class="lab">Race car</div><div class="trk"><div class="sbar" data-w="82.1" role="img" aria-label="Race car: 9 Strong, 13 Present, 1 Not seen in autocomplete"><span class="c-s3" style="flex:9" data-tip="Race car: 9 Strong of 23">9</span><span class="c-s2" style="flex:13" data-tip="Race car: 13 Present of 23">13</span><span class="c-s1" style="flex:1" data-tip="Race car: 1 Not seen in autocomplete of 23">1</span></div></div><div class="pct">23</div></div>
+<div class="prow"><div class="lab">Service area</div><div class="trk"><div class="sbar" data-w="10.7" role="img" aria-label="Service area: 1 Strong, 1 Present, 1 Not seen in autocomplete"><span class="c-s3" style="flex:1" data-tip="Service area: 1 Strong of 3">1</span><span class="c-s2" style="flex:1" data-tip="Service area: 1 Present of 3">1</span><span class="c-s1" style="flex:1" data-tip="Service area: 1 Not seen in autocomplete of 3">1</span></div></div><div class="pct">3</div></div>
+<div class="prow"><div class="lab">Forney</div><div class="trk"><div class="sbar" data-w="46.4" role="img" aria-label="Forney: 11 Strong, 2 Present"><span class="c-s3" style="flex:11" data-tip="Forney: 11 Strong of 13">11</span><span class="c-s2" style="flex:2" data-tip="Forney: 2 Present of 13">2</span></div></div><div class="pct">13</div></div>
+<div class="prow"><div class="lab">Terrell</div><div class="trk"><div class="sbar" data-w="28.6" role="img" aria-label="Terrell: 4 Strong, 4 Present"><span class="c-s3" style="flex:4" data-tip="Terrell: 4 Strong of 8">4</span><span class="c-s2" style="flex:4" data-tip="Terrell: 4 Present of 8">4</span></div></div><div class="pct">8</div></div>
+<div class="prow"><div class="lab">Mabank</div><div class="trk"><div class="sbar" data-w="10.7" role="img" aria-label="Mabank: 2 Strong, 1 Present"><span class="c-s3" style="flex:2" data-tip="Mabank: 2 Strong of 3">2</span><span class="c-s2" style="flex:1" data-tip="Mabank: 1 Present of 3">1</span></div></div><div class="pct">3</div></div>
+<div class="prow"><div class="lab">About</div><div class="trk"><div class="sbar" data-w="10.7" role="img" aria-label="About: 3 Not seen in autocomplete"><span class="c-s1" style="flex:3" data-tip="About: 3 Not seen in autocomplete of 3">3</span></div></div><div class="pct">3</div></div>
+<div class="prow"><div class="lab">Reviews</div><div class="trk"><div class="sbar" data-w="7.1" role="img" aria-label="Reviews: 1 Present, 1 Not seen in autocomplete"><span class="c-s2" style="flex:1" data-tip="Reviews: 1 Present of 2">1</span><span class="c-s1" style="flex:1" data-tip="Reviews: 1 Not seen in autocomplete of 2">1</span></div></div><div class="pct">2</div></div>
+<div class="prow"><div class="lab">Contact / quote</div><div class="trk"><div class="sbar" data-w="21.4" role="img" aria-label="Contact / quote: 6 Present"><span class="c-s2" style="flex:6" data-tip="Contact / quote: 6 Present of 6">6</span></div></div><div class="pct">6</div></div>
+<div class="fnote"><b>Forney</b>, <b>Auto</b>, and <b>Race car</b> hold 30 of the 51 Strong-signal keywords (11, 10, and 9). Every keyword and its signal is listed in <a href="#s6">section 06</a>.</div>
+</div>
+<div class="scol kgap">
+<div class="fpanel">
+<div class="cpt">Phrases Google suggested most often</div>
+<div class="csub">Separate autocomplete lookups that returned the phrase &middot; 4 or more shown</div>
+<div class="hrow"><div class="ht"><span class="nm">insurance companies in terrell texas</span><span class="pg">Terrell</span></div><div class="fbar"><i data-w="100.0" data-tip="insurance companies in terrell texas: returned in 9 lookups">9</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">how much is car insurance in texas per month</span><span class="pg">Auto</span></div><div class="fbar"><i data-w="77.8" data-tip="how much is car insurance in texas per month: returned in 7 lookups">7</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">insurance agents in forney tx</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="55.6" data-tip="insurance agents in forney tx: returned in 5 lookups">5</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">insurance companies in forney texas</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="55.6" data-tip="insurance companies in forney texas: returned in 5 lookups">5</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">insurance broker forney tx</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="55.6" data-tip="insurance broker forney tx: returned in 5 lookups">5</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">insurance companies in kaufman texas</span><span class="pg">Home page</span></div><div class="fbar"><i data-w="44.4" data-tip="insurance companies in kaufman texas: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">car insurance kaufman tx</span><span class="pg">Auto</span></div><div class="fbar"><i data-w="44.4" data-tip="car insurance kaufman tx: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">how much is car insurance in texas</span><span class="pg">Auto</span></div><div class="fbar"><i data-w="44.4" data-tip="how much is car insurance in texas: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">how much is the average car insurance in texas</span><span class="pg">Auto</span></div><div class="fbar"><i data-w="44.4" data-tip="how much is the average car insurance in texas: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">race car insurance cost</span><span class="pg">Race car</span></div><div class="fbar"><i data-w="44.4" data-tip="race car insurance cost: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">insurance agency forney tx</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="44.4" data-tip="insurance agency forney tx: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">car insurance forney tx</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="44.4" data-tip="car insurance forney tx: returned in 4 lookups">4</i></div></div>
+<div class="hrow"><div class="ht"><span class="nm">homeowners insurance forney tx</span><span class="pg">Forney</span></div><div class="fbar"><i data-w="44.4" data-tip="homeowners insurance forney tx: returned in 4 lookups">4</i></div></div>
+<div class="fnote">A repeat count shows how often a phrase surfaced across related searches. It is not search volume. "insurance broker forney tx" is on this chart and carries a flag (section 07).</div>
+</div>
+<div class="fpanel fcol">
+<div class="cpt">What the list is made of</div>
+<div class="csub">Keywords out of 162 &middot; the full track is all 162</div>
+<div class="sgroup"><div class="gl">Search intent</div>
+<div class="srow w"><div class="lab">Commercial</div><div class="fbar"><i data-w="53.7" data-tip="Commercial: 87 of 162 keywords"></i></div><div class="pct">87</div></div>
+<div class="srow w"><div class="lab">Informational</div><div class="fbar"><i data-w="31.5" data-tip="Informational: 51 of 162 keywords"></i></div><div class="pct">51</div></div>
+<div class="srow w"><div class="lab">Transactional</div><div class="fbar"><i data-w="10.5" data-tip="Transactional: 17 of 162 keywords"></i></div><div class="pct">17</div></div>
+<div class="srow w"><div class="lab">Navigational</div><div class="fbar"><i data-w="4.3" data-tip="Navigational: 7 of 162 keywords"></i></div><div class="pct">7</div></div>
+</div>
+<div class="sgroup" style="margin-bottom:18px"><div class="gl">Role on the page</div>
+<div class="srow w"><div class="lab">Primary</div><div class="fbar"><i data-w="10.5" data-tip="Primary: 17 of 162 keywords"></i></div><div class="pct">17</div></div>
+<div class="srow w"><div class="lab">Secondary</div><div class="fbar"><i data-w="21.6" data-tip="Secondary: 35 of 162 keywords"></i></div><div class="pct">35</div></div>
+<div class="srow w"><div class="lab">Supporting</div><div class="fbar"><i data-w="67.9" data-tip="Supporting: 110 of 162 keywords"></i></div><div class="pct">110</div></div>
+</div>
+<div class="sgroup" style="margin-bottom:18px"><div class="gl">Place named in the phrase</div>
+<div class="srow w"><div class="lab">Kaufman</div><div class="fbar"><i data-w="11.1" data-tip="Kaufman: 18 of 162 keywords"></i></div><div class="pct">18</div></div>
+<div class="srow w"><div class="lab">Forney</div><div class="fbar"><i data-w="8.0" data-tip="Forney: 13 of 162 keywords"></i></div><div class="pct">13</div></div>
+<div class="srow w"><div class="lab">Terrell</div><div class="fbar"><i data-w="4.9" data-tip="Terrell: 8 of 162 keywords"></i></div><div class="pct">8</div></div>
+<div class="srow w"><div class="lab">Other towns</div><div class="fbar"><i data-w="3.1" data-tip="Other towns: 5 of 162 keywords"></i></div><div class="pct">5</div></div>
+<div class="srow w"><div class="lab">Texas</div><div class="fbar"><i data-w="39.5" data-tip="Texas: 64 of 162 keywords"></i></div><div class="pct">64</div></div>
+<div class="srow w"><div class="lab">Near me</div><div class="fbar"><i data-w="6.2" data-tip="Near me: 10 of 162 keywords"></i></div><div class="pct">10</div></div>
+<div class="srow w"><div class="lab">No place</div><div class="fbar"><i data-w="27.2" data-tip="No place: 44 of 162 keywords"></i></div><div class="pct">44</div></div>
+</div>
+<div class="fnote">Intent uses the first intent listed for each keyword. The 10 "Local / transactional" keywords count as Transactional. <b>47 of the 162</b> keywords are FAQ questions, on the Auto, Home insurance, Life, Business, and Race car pages.</div>
+</div>
+</div>
+</section>
+<section class="block" id="s5">
+<div class="bhead"><span class="ix">05</span><div><h2>Recommended pages</h2><p>13-page sitemap with a title tag, H1, and meta description for each</p></div></div>
+<p class="kwlead">The live site has one content page. The demo builds <b>12</b>, and the research supports all of them plus <b>one new page</b> for Mabank. URLs follow the demo's route plan, so nothing here renames a route. Title tags, H1s, and meta descriptions below keep the demo's wording wherever it already fits the research. Changes are called out in the notes.</p>
+<div class="panel tblwrap">
+<table class="ptable pmt">
+<thead><tr><th>Live site today</th><th>Recommended URL</th><th>Change</th><th>Primary keyword</th><th class="c">Keywords</th></tr></thead>
+<tbody>
+<tr><td><span class="mono">/</span></td><td><span class="pg">Home page</span><span class="ttl mono">/</span></td><td><span class="pill gray">In demo (edit meta)</span></td><td>insurance kaufman tx</td><td class="c">12</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Auto</span><span class="ttl mono">/auto-insurance/</span></td><td><span class="pill gray">In demo (edit title, H1, add FAQ)</span></td><td>car insurance kaufman tx</td><td class="c">28</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Home insurance</span><span class="ttl mono">/home-insurance/</span></td><td><span class="pill gray">In demo (add FAQ)</span></td><td>home insurance kaufman tx</td><td class="c">28</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Life</span><span class="ttl mono">/life-insurance/</span></td><td><span class="pill gray">In demo (edit meta)</span></td><td>life insurance kaufman tx</td><td class="c">12</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Business</span><span class="ttl mono">/business-insurance/</span></td><td><span class="pill gray">In demo (add FAQ)</span></td><td>business insurance kaufman tx</td><td class="c">21</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Race car</span><span class="ttl mono">/race-car-insurance/</span></td><td><span class="pill gray">In demo (edit title, H1, add FAQ)</span></td><td>race car insurance</td><td class="c">23</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Service area</span><span class="ttl mono">/service-area/</span></td><td><span class="pill gray">In demo (edit title)</span></td><td>kaufman county insurance</td><td class="c">3</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Forney</span><span class="ttl mono">/service-area/forney/</span></td><td><span class="pill gray">In demo (add sections)</span></td><td>insurance forney tx</td><td class="c">13</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Terrell</span><span class="ttl mono">/service-area/terrell/</span></td><td><span class="pill gray">In demo (add section)</span></td><td>insurance terrell tx</td><td class="c">8</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Mabank</span><span class="ttl mono">/service-area/mabank/</span></td><td><span class="pill blue">New page (confirm first)</span></td><td>insurance mabank tx</td><td class="c">3</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">About</span><span class="ttl mono">/about/</span></td><td><span class="pill gray">In demo (edit title, meta)</span></td><td>kayrich insurance</td><td class="c">3</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Reviews</span><span class="ttl mono">/reviews/</span></td><td><span class="pill gray">In demo</span></td><td>best insurance agency kaufman tx</td><td class="c">2</td></tr>
+<tr><td><span class="none" style="color:#A9B4C2">No page today</span></td><td><span class="pg">Contact / quote</span><span class="ttl mono">/contact/</span></td><td><span class="pill gray">In demo (edit title)</span></td><td>get an insurance quote</td><td class="c">6</td></tr>
+</tbody>
+</table>
+<div class="fnote" style="margin-top:14px;">The demo's route plan already covers the redirects from the live Wix URLs: /book-online and both booking pages go to /contact/, and /pricing-plans/plans-pricing goes to the home page.</div>
+</div>
+<div class="plan kgap">
+<div class="pstep"><div class="num">1</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit meta)</span><span class="pill gray">12 keywords</span></div>
+<div class="h">Home page<span class="url">/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Kaufman insurance agency</span><span class="cl">Farmers agent in Kaufman County</span></dd>
+<dt>Primary keyword</dt><dd><b>insurance kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>farmers insurance kaufman tx; insurance kaufman texas; insurance in kaufman tx</dd>
+<dt>Title tag</dt><dd>Insurance Agency in Kaufman, TX | KayRich Insurance Agency<span class="len">58 characters</span></dd>
+<dt>H1</dt><dd>Auto, home, life and business insurance in Kaufman, TX.</dd>
+<dt>Meta description</dt><dd>KayRich Insurance Agency in Kaufman, TX. Auto, home, life, business and race car insurance for Kaufman, Forney, Terrell and Mabank. Call (214) 773-3938.<span class="len">152 characters</span></dd>
+<dt>H2 sections</dt><dd>Start a quote in five fields &middot; Four everyday policies &middot; Bundle home and auto (new) &middot; Race car insurance &middot; Kayleigh Phillips-Richards &middot; Reviews &middot; Six towns, one office &middot; Quote band</dd>
+<dt>Notes</dt><dd>Title and H1 stay as built. The demo meta description is 215 characters and opens with &#x27;Independent-minded&#x27;. The draft here is shorter and drops that word until the carrier relationship is confirmed.</dd>
+<dt>Ranking now</dt><dd>Germania, Progressive agent locator, State Farm locator, Texas Farm Bureau (Kaufman County), Trusted Choice, Yelp, Amanda Verde State Farm, Allstate locator, InsuranceDirectory.com, David Adams Allstate (search &#x27;insurance agency kaufman tx&#x27;)</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">2</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit title, H1, add FAQ)</span><span class="pill gray">28 keywords</span></div>
+<div class="h">Auto<span class="url">/auto-insurance/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Auto insurance</span><span class="cl">Texas auto insurance questions</span></dd>
+<dt>Primary keyword</dt><dd><b>car insurance kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>auto insurance kaufman tx; how much is car insurance in texas per month; texas minimum car insurance requirements</dd>
+<dt>Title tag</dt><dd>Car Insurance in Kaufman, TX | KayRich Insurance Agency<span class="len">55 characters</span></dd>
+<dt>H1</dt><dd>Car and truck insurance in Kaufman, TX.</dd>
+<dt>Meta description</dt><dd>Car insurance in Kaufman, TX for trucks, commuter cars, teen drivers and trailers. Serving Kaufman, Forney, Terrell and Mabank. Call (214) 773-3938.<span class="len">148 characters</span></dd>
+<dt>H2 sections</dt><dd>What an auto policy actually has to do &middot; If it has a title, ask about it &middot; Discounts and bundling (new) &middot; FAQ (new): cost per month in Texas, Texas minimum requirements, uninsured motorist, teen drivers</dd>
+<dt>Notes</dt><dd>The URL stays /auto-insurance/. &#x27;Auto insurance&#x27; moves to an H2 and the intro. The demo meta description is 165 characters.</dd>
+<dt>Ranking now</dt><dd>Jimmy Tucker State Farm, State Farm locator, Rowden Hendrickson Shipley &amp; Rymer (Travelers listing), Progressive agent locator, Amanda Verde State Farm (site and Facebook), Yelp, David Adams Allstate, Allstate locator, DMV.org (search &#x27;car insurance kaufman tx agent&#x27;)</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">3</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (add FAQ)</span><span class="pill gray">28 keywords</span></div>
+<div class="h">Home insurance<span class="url">/home-insurance/</span></div>
+<dl class="pm">
+<dt>Keyword clusters</dt><dd><span class="cl">Home insurance</span><span class="cl">Texas home insurance questions</span></dd>
+<dt>Primary keyword</dt><dd><b>home insurance kaufman tx</b></dd>
+<dt>Secondary keywords</dt><dd>homeowners insurance kaufman tx; how much is home insurance in texas per month; wind and hail deductible texas</dd>
+<dt>Title tag</dt><dd>Home Insurance in Kaufman, TX | KayRich Insurance Agency<span class="len">56 characters</span></dd>
+<dt>H1</dt><dd>Home insurance in Kaufman, TX, priced for hail season.</dd>
+<dt>Meta description</dt><dd>Home insurance in Kaufman, TX built around hail, wind and North Texas storm season. Serving Kaufman, Forney, Terrell and Mabank. Call (214) 773-3938.<span class="len">149 characters</span></dd>
+<dt>H2 sections</dt><dd>Two clusters, six lines &middot; Wind and hail deductibles (new) &middot; Home and auto on one policy &middot; FAQ (new): cost per month in Texas, why rates are rising in North Texas, roof and hail claims, foundation, flood</dd>
+<dt>Notes</dt><dd>Title and H1 stay as built. The demo meta description is 165 characters. Renters, landlord, mobile home and barndominium sections depend on the lines confirmed in section 07.</dd>
+<dt>Ranking now</dt><dd>For &#x27;home insurance forney tx&#x27;: Brightway (The Worthen Agency), a Farmers Forney agent, Forney Insurance Services (Travelers listing), Farmers locator, TGS Insurance, Forney Group Insurance Agency, forneyinsurance.com, Kelli Johnson State Farm, Royalty Insurance. Kaufman home terms were not searched.</dd>
+</dl>
+</div></div>
+<div class="pstep"><div class="num">4</div><div class="pgm">
+<div class="meta"><span class="pill gray">In demo (edit meta)</span><span class="pill gray">12 keywords</span></div>
+<div class="h">Life<span class="url">/life-insurance/</span></div>
+<dl class="pm">
