@@ -13,6 +13,7 @@ public/            # everything in here is deployed and publicly reachable
     campaign-configuration-2026-09-15.html              # /reports/campaign-configuration-2026-09-15 (TX Home)
     commercial-campaign-configuration-2026-09-16.html   # /reports/commercial-campaign-configuration-2026-09-16 (TX Commercial)
     seo-audit-2026-09-16.html                           # /reports/seo-audit-2026-09-16
+    seo-keyword-research-2026-09-19.html                # /reports/seo-keyword-research-2026-09-19 (162 keywords, 13-page sitemap)
   assets/
     tx-map-home.svg                                     # county map for the Home report (243 targeted / 11 excluded)
     tx-map-commercial.svg                               # county map for the Commercial report (all 254 targeted)
@@ -74,11 +75,17 @@ The agency logo is embedded as a base64 `data:` URI (`<img class="crlogo" …>`,
    <a class="card" href="reports/campaign-performance-2026-10-15.html"><div class="ct">Title</div><div class="cs">Scope &middot; Date</div><div class="cl">Open report &rarr;</div></a>
    ```
 
+## Keyword research report
+
+`seo-keyword-research-2026-09-19.html` follows the Borecky keyword report layout: on-page metrics for the 12 demo pages, 8 on-page recommendations, 162 keywords in 17 clusters mapped to a 13-page sitemap (the 12 demo routes plus a proposed Mabank page), the filterable keyword list, and the items to confirm before copy is written. Its sidebar links to the other reports by filename. The source workbook (`KayRich Insurance - Keyword Research 2026-09.xlsx`) is kept out of the repo because everything in `public/` is publicly reachable.
+
+Unlike the older reports, its inline script also filters the keyword table and shows chart tooltips. Both run under the existing CSP (`script-src 'self' 'unsafe-inline'`).
+
 ## Website redesign demo card
 
 The "Website & SEO" group also has a **Website Redesign Demo** card. It links to an external site, https://kayrich-site-demo.vercel.app, deployed from the [`TomsTools11/kayrich-site-demo`](https://github.com/TomsTools11/kayrich-site-demo) repo. It is the only card that opens in a new tab (`target="_blank" rel="noopener noreferrer"`); report cards stay in the same tab so the "← All Reports" back link works. If the demo's Vercel project is renamed or gets a custom domain, update the card's `href`. No CSP change is needed, because the policy doesn't restrict link navigation.
 
-`vercel.json` redirects the short links to the files under `reports/`: `/seo-audit`, `/seo-audit-2026-09-16`, `/campaign-configuration` (TX Home) and `/commercial-campaign-configuration` (TX Commercial).
+`vercel.json` redirects the short links to the files under `reports/`: `/seo-audit`, `/keyword-research`, `/seo-audit-2026-09-16`, `/campaign-configuration` (TX Home) and `/commercial-campaign-configuration` (TX Commercial).
 
 ## Access note
 

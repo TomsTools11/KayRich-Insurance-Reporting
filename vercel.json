@@ -15,6 +15,11 @@
       "permanent": true
     },
     {
+      "source": "/keyword-research",
+      "destination": "/reports/seo-keyword-research-2026-09-19",
+      "permanent": false
+    },
+    {
       "source": "/campaign-configuration",
       "destination": "/reports/campaign-configuration-2026-09-15",
       "permanent": false
